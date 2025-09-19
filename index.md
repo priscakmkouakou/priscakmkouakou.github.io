@@ -16,9 +16,9 @@ layout: default
   <p class="lead">
   I am an interdisciplinary researcher with backgrounds in ecology, environmental science, and social science.
   Currently, I am a PhD Candidate in the Department of Geography at the University of Cambridge, supported by the
-  Cambridge Trust Studentship. My work is supervised by Professor Rachael Garrett. My research examines the conditions
-  under which supply chain sustainability initiatives can lead to the adoption of agroforestry and how these initiatives
-  shape social and ecological outcomes in the cocoa sectors of Côte d’Ivoire and Ghana. <br><br>
+  Cambridge Trust Studentship. My research examines the conditions under which supply chain sustainability initiatives 
+  can lead to the adoption of agroforestry and how these initiatives shape social and ecological outcomes in the cocoa 
+  sectors of Côte d’Ivoire and Ghana. My work is supervised by Professor Rachael Garrett. <br><br>
   I use a mixed-methods approach that combines policy analysis with biophysical and household surveys.
 </p>
 </div>
