@@ -24,7 +24,7 @@ layout: default
 <div class="hero">
   <img class="avatar" src="/assets/profile.jpg" alt="Prisca Kouakou headshot">
   <div class="icons">
-    <a href="mailto:you@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+    <a href="mailto:prisca.kouakou@outlook.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
     <a href="https://scholar.google.com/citations?user=I9N3bjcAAAAJ&hl=en&oi=ao" title="Google Scholar"><i class="fa-brands fa-google"></i></a>
     <a href="https://orcid.org/0009-0001-3711-1578" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
     <a href="https://github.com/priscakmkouakou" title="GitHub"><i class="fa-brands fa-github"></i></a>
