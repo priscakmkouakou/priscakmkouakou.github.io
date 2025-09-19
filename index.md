@@ -25,13 +25,15 @@ layout: default
   <table>
    <tr>
     <td><strong>Sep 15, 2025</strong></td>
-    <td>My first-author and first-PhD paper titled <a href="https://www.repository.cam.ac.uk/handle/1810/389512/">"Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa"</a> has been accepted for publication in Sustainable Development (Wiley)!!!</td>
+    <td>My first-author and first-PhD paper titled <a href="https://www.repository.cam.ac.uk/handle/1810/389512/">"Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa"</a> has been accepted for publication in Sustainable Development!!!</td>
   </tr>
+
     
   <tr>
     <td><strong>Feb 13, 2025</strong></td>
     <td>I was invited as a guest speaker at the <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming/">Cambridge Global Food Security Lunchtime Conversation</a>, where I spoke on “Socio-economic levers to scale up more sustainable farming.”</td>
   </tr>
+
   
   <tr>
     <td><strong>Nov 4, 2024</strong></td>
