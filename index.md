@@ -21,6 +21,7 @@ layout: default
   shape social and ecological outcomes in the cocoa sectors of Côte d’Ivoire and Ghana. <br><br>
   I use a mixed-methods approach that combines policy analysis with biophysical and household surveys.
 </p>
+</div>
 
 <div class="section">
   <h2>News</h2>
@@ -75,8 +76,10 @@ layout: default
   </li>
 
 </ul>
+</div>
 
 <div class="section">
+  
   <h2>Featured publications</h2>
 
 <table>
