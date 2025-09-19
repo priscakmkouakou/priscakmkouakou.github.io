@@ -4,7 +4,7 @@ layout: default
 permalink: /publications/
 ---
 
-## <i class="fa-solid fa-book-open"></i> Research articles
+## <i class="fa-solid fa-file-lines"></i> Research articles
 
 <style>
 .pub-grid{max-width: 1000px; margin: 0 auto;}
@@ -61,6 +61,7 @@ permalink: /publications/
     </div>
     <div class="pub-actions">
       <a class="primary" href="https://doi.org/10.1088/2976-601X/adf117" target="_blank" rel="noopener">Open DOI</a>
+      <a href="https://iopscience.iop.org/article/10.1088/2976-601X/adf117/pdf" target="_blank" rel="noopener">Download</a>
     </div>
   </article>
 
