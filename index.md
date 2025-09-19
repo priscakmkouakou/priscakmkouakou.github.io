@@ -5,7 +5,7 @@ layout: default
 <style>
 /* Make the bio section wider */
 .lead {
-  max-width: 550px;   /* default was ~600px */
+  max-width: 750px;   /* default was ~600px */
   margin: 0 auto;     /* keep it centered */
   font-size: 1.05rem; /* optional: slightly larger text */
   line-height: 1.6;
@@ -14,7 +14,7 @@ layout: default
 
 /* Make the profile picture larger */
 .avatar {
-  width: 600px;   /* increase size (try 220–250px) */
+  width: 250px;   /* increase size (try 220–250px) */
   height: auto;
   border-radius: 50%;
   margin-bottom: 1rem;
