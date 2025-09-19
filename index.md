@@ -23,6 +23,7 @@ layout: default
 </p>
 
 <div class="section">
+  <div align="left">
   <h2>News</h2>
 
 <ul class="news-list">
