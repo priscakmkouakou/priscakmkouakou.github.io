@@ -19,7 +19,7 @@ permalink: /projects/
         🌱🍫 SUSTAIN-COCOA
         </a>
       </h3>
-        <div class="proj-meta">West Africa · A five-year project </div>
+        <div class="proj-meta">West Africa · A five-year project · Current implementation </div>
         <p class="proj-desc">
           Understanding how sustainable sourcing policies can support biodiversity protection, climate mitigation,
           and smallholder livelihoods in the West African cocoa sector.
