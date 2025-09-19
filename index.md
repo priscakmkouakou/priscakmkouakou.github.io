@@ -111,6 +111,113 @@ layout: default
 </ul>
 </div>
 
+---
+## News
+
+<style>
+/* ===== Timeline base ===== */
+.timeline {
+  --line: #cfe7d3;        /* spine color (soft green) */
+  --accent: #2b6e2f;      /* dot + date color (dark green) */
+  --card-bg: #eaf7ea;     /* card background (light green) */
+  --muted: #6b7280;       /* year label color */
+  max-width: 980px;
+  margin: 0 auto 1.5rem auto;
+  display: grid;
+  grid-template-columns: 6rem 2.2rem 1fr;
+  gap: .75rem 1rem;
+  align-items: start;
+  position: relative;
+}
+
+/* vertical spine */
+.timeline::before {
+  content: "";
+  grid-column: 2;
+  grid-row: 1 / -1;
+  justify-self: center;
+  width: 4px;
+  background: linear-gradient(180deg, var(--line), var(--line));
+  border-radius: 2px;
+}
+
+/* year label (left) */
+.tl-year {
+  grid-column: 1;
+  color: var(--muted);
+  font-weight: 700;
+  letter-spacing: .02em;
+  align-self: center;
+  padding-top: .25rem;
+}
+
+/* dot on the spine */
+.tl-node {
+  grid-column: 2;
+  justify-self: center;
+  width: 14px; height: 14px;
+  background: var(--accent);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #fff; /* white ring for contrast */
+  margin-top: .4rem;
+}
+
+/* card on the right */
+.tl-card {
+  grid-column: 3;
+  background: var(--card-bg);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,.06);
+}
+
+/* inside the card */
+.tl-when { font-weight: 700; color: var(--accent); margin: 0 0 .2rem 0; }
+.tl-title { margin: 0; font-weight: 600; }
+.tl-card p { margin: .35rem 0 0 0; }
+
+/* compact on small screens */
+@media (max-width: 580px) {
+  .timeline { grid-template-columns: 4.5rem 1.8rem 1fr; }
+  .tl-card { padding: .85rem 1rem; }
+}
+</style>
+
+<div class="timeline">
+
+  <!-- 2025 -->
+  <div class="tl-year">2025</div>
+  <div class="tl-node"></div>
+  <div class="tl-card">
+    <div class="tl-when">Sep 15, 2025</div>
+    <div class="tl-title">
+      My first-author PhD paper, <a href="https://www.repository.cam.ac.uk/handle/1810/389512">Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa</a>, accepted in <em>Sustainable Development</em>.
+    </div>
+  </div>
+
+  <!-- same year (leave tl-year empty to avoid repeating the label) -->
+  <div class="tl-year"></div>
+  <div class="tl-node"></div>
+  <div class="tl-card">
+    <div class="tl-when">Feb 13, 2025</div>
+    <div class="tl-title">
+      Invited speaker at the <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming/">Cambridge Global Food Security Lunchtime Conversation</a> — “Socio-economic levers to scale up more sustainable farming.”
+    </div>
+  </div>
+
+  <!-- 2024 -->
+  <div class="tl-year">2024</div>
+  <div class="tl-node"></div>
+  <div class="tl-card">
+    <div class="tl-when">Nov 4, 2024</div>
+    <div class="tl-title">
+      Talk at the <a href="https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems/">Global Land Programme 5th Open Science Meeting</a> — “Identifying enablers for just sustainability transitions to scale up cocoa agroforestry in West Africa.”
+    </div>
+  </div>
+
+</div>
+---
+
 <div class="section">
   
   <h2>Featured publications</h2>
