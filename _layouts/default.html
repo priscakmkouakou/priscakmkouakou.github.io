@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  {% seo %}
+  <!-- Icons (for the row under your photo) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}">
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav">
+      <a href="{{ '/' | relative_url }}" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+      <a href="{{ '/publications/' | relative_url }}" class="{% if page.url contains '/publications' %}active{% endif %}">Publications</a>
+      <a href="{{ '/projects/' | relative_url }}" class="{% if page.url contains '/projects' %}active{% endif %}">Projects</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    © {{ site.time | date: '%Y' }} {{ site.title }}
+  </footer>
+</body>
+</html>
