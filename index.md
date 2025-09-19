@@ -26,17 +26,36 @@ layout: default
    <tr>
     <td><strong>Sep 15, 2025</strong></td>
     <td>My first-author and first-PhD paper titled <a href="https://www.repository.cam.ac.uk/handle/1810/389512/">"Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa"</a> has been accepted for publication in Sustainable Development!!!</td>
-  </tr>
-
-    
+  </tr> 
+  <tr>
+  </tr> 
   <tr>
     <td><strong>Feb 13, 2025</strong></td>
     <td>I was invited as a guest speaker at the <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming/">Cambridge Global Food Security Lunchtime Conversation</a>, where I spoke on “Socio-economic levers to scale up more sustainable farming.”</td>
   </tr>
-
-  
+  </tr> 
+  <tr>
   <tr>
     <td><strong>Nov 4, 2024</strong></td>
     <td>I attended the <a href="https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems/">Global Land Programme 5th Open Science Meeting</a>, and gave a talk on “Identifying enablers for just sustainability transition to scale up cocoa agroforestry in West Africa”.</td>
   </tr>
   <table>
+
+<div class="section">
+  <h2>Selected publications</h2>
+
+<table>
+  <tr>
+    <td><strong>2024</strong></td>
+    <td>R. Garrett, Y. le Polain de Warox & [Your Name]. <em><a href="https://doi.org/...">Characterizing culture’s influence in land systems</a></em>. <em>Nature Sustainability</em>.</td>
+  </tr>
+  <tr>
+    <td><strong>2023</strong></td>
+    <td>[Your Name], A. Coauthor & B. Coauthor. <em><a href="https://doi.org/...">Title of your publication</a></em>. <em>Journal Name</em>.</td>
+  </tr>
+  <tr>
+    <td><strong>2022</strong></td>
+    <td>[Your Name], C. Author. <em><a href="https://doi.org/...">Another key publication</a></em>. <em>Journal Name</em>.</td>
+  </tr>
+</table>
+
