@@ -1,5 +1,5 @@
 ---
-title: "Prisca K. M. Kouakou"
+title: "Prisca Kouakou"
 layout: default
 ---
 
