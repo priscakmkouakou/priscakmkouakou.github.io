@@ -64,7 +64,7 @@ layout: default
     <td>Cammelli, F., Addoah, T., Furrer, N.A., [Kouakou, P.], Lyons-White, J., Renier, C., Thompson, W. and Garrett, R.D. <em><a href="https://doi.org/10.1088/2976-601X/adf117">Scaling out agroforestry and forest conservation in West Africa requires more transformative policy interventions in cocoa supply chains.</a></em>. <em>Environmental Research: Food Systems, 2025</em>.</td>
   </tr>
   <tr>
-    <td><strong>2023</strong></td>
+    <td><strong>2025</strong></td>
     <td>Addoah, T., Lyons-White, J., Cammelli, F., [Kouakou, K.M.-P.], Carodenuto, S., Thompson, W.J., Renier, C. and Garrett, R.D. <em><a href="https://doi.org/10.1002/sd.3380">Is the Implementation of Cocoa Companies’ Forest Policies on Track to Effectively and Equitably Address Deforestation in West Africa?</a></em>. <em>Sustainable Development</em>.</td>
   </tr>
 </table>
