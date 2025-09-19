@@ -80,109 +80,32 @@ details[open] summary{ color: var(--accent-2); }
 
 <div class="proj-wrap">
   <div class="proj-grid">
-    <!-- Project 1 -->
+    <!-- Project 1 (with image) -->
     <article class="proj-card">
       <div class="proj-media">
-        <!-- Replace with an image if you have one -->
-        <!-- <img src="/assets/projects/cocoa-agroforestry.jpg" alt="Cocoa agroforestry project"> -->
-        <span><i class="fa-solid fa-leaf"></i>&nbsp; Cocoa Agroforestry Adoption</span>
+        <img src="/assets/projects/sustain-cocoa.jpg" alt="SUSTAIN-COCOA">
       </div>
       <div class="proj-body">
-        <h3 class="proj-title">Socio-economic levers to scale cocoa agroforestry in West Africa</h3>
-        <div class="proj-meta">2023–2025 · Côte d’Ivoire &amp; Ghana · PhD project</div>
+        <h3 class="proj-title">Sustainable sourcing policies for biodiversity protection, climate mitigation, and improved livelihoods in the West African cocoa sector.</h3>
+        <div class="proj-meta">Current Implementation: </div>
         <p class="proj-desc">
-          Mixed-methods evaluation of how supply-chain sustainability initiatives influence agroforestry adoption,
-          and how adoption affects social and ecological outcomes among smallholders.
+          A five-year project focusing on smallholder cocoa farmers in West Africa.
         </p>
         <div class="proj-tags">
-          <span class="proj-tag">agroforestry</span>
-          <span class="proj-tag">supply chains</span>
-          <span class="proj-tag">household surveys</span>
-          <span class="proj-tag">policy analysis</span>
+          <span class="proj-tag">Deforestation/Reforestation</span>
+          <span class="proj-tag">Supply chain sustainability initiatives</span>
+          <span class="proj-tag">Climate mitigation</span>
+          <span class="proj-tag">Livelihoods</span>
         </div>
-        <div class="proj-actions">
-          <a class="primary" href="https://www.repository.cam.ac.uk/handle/1810/389512" target="_blank" rel="noopener">
-            <i class="fa-solid fa-book-open"></i> Paper
-          </a>
-          <a href="https://doi.org/10.1088/2976-601X/adf117" target="_blank" rel="noopener">
-            <i class="fa-solid fa-arrow-up-right-from-square"></i> Related study
-          </a>
-          <a href="/docs/KouakouCV_August2025.pdf" target="_blank" rel="noopener">
-            <i class="fa-solid fa-file-lines"></i> Methods
-          </a>
-        </div>
-      </div>
-      <div class="proj-more">
-        <details>
-          <summary><i class="fa-regular fa-circle-down"></i> Read more</summary>
-          <p>
-            We combine policy review, firm interviews, and biophysical + household surveys (n=350 households; 128 farms)
-            to identify adoption determinants and distributional effects. Outputs include an open survey instrument,
-            anonymized indicators, and a replicable analysis workflow.
-          </p>
-        </details>
-      </div>
-    </article>
-    <!-- Project 2 -->
-    <article class="proj-card">
-      <div class="proj-media">
-        <span><i class="fa-solid fa-tree-city"></i>&nbsp; Forest Policy &amp; Equity</span>
-      </div>
-      <div class="proj-body">
-        <h3 class="proj-title">Equity in cocoa companies’ forest policies</h3>
-        <div class="proj-meta">2024–2025 · Sustainable Development</div>
-        <p class="proj-desc">
-          Assessment of corporate forest policies against equity and effectiveness criteria, with a focus on
-          smallholder inclusion, transparency, and accountability.
-        </p>
-        <div class="proj-tags">
-          <span class="proj-tag">deforestation</span>
-          <span class="proj-tag">equity</span>
-          <span class="proj-tag">policy scoring</span>
-        </div>
-        <div class="proj-actions">
+       <div class="proj-actions">
           <a class="primary" href="https://doi.org/10.1002/sd.3380" target="_blank" rel="noopener">
             <i class="fa-solid fa-book-open"></i> Paper
           </a>
           <a href="https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems/" target="_blank" rel="noopener">
             <i class="fa-solid fa-chalkboard-user"></i> Talk
           </a>
-          <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank" rel="noopener">
+          <a href="https://github.com/priscakmkouakou/YOUR-REPO" target="_blank" rel="noopener">
             <i class="fa-brands fa-github"></i> Code
-          </a>
-        </div>
-      </div>
-      <div class="proj-more">
-        <details>
-          <summary><i class="fa-regular fa-circle-down"></i> Read more</summary>
-          <p>
-            Using a structured rubric, we compare timelines, farmer support, grievance mechanisms, and monitoring.
-            The analysis highlights gaps in smallholder finance and burden sharing, with recommendations for fairer
-            implementation.
-          </p>
-        </details>
-      </div>
-    </article>
-    <!-- Project 3 (example with image) -->
-    <article class="proj-card">
-      <div class="proj-media">
-        <img src="/assets/projects/drone-survey.jpg" alt="Drone survey and biomass assessments">
-      </div>
-      <div class="proj-body">
-        <h3 class="proj-title">Drone-assisted biomass assessments on cocoa farms</h3>
-        <div class="proj-meta">2023 · Côte d’Ivoire · Field campaign</div>
-        <p class="proj-desc">
-          Six-month field campaign to collect plot-level canopy metrics and on-farm biomass, paired with farmer
-          surveys to link structure, yield, and livelihoods.
-        </p>
-        <div class="proj-tags">
-          <span class="proj-tag">UAS</span>
-          <span class="proj-tag">biophysical surveys</span>
-          <span class="proj-tag">remote sensing</span>
-        </div>
-        <div class="proj-actions">
-          <a href="/docs/protocol_biomass.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines"></i> Protocol</a>
-          <a href="mailto:you@example.com"><i class="fa-solid fa-envelope"></i> Contact</a>
         </div>
       </div>
       <div class="proj-more">
