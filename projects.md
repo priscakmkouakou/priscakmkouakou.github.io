@@ -21,7 +21,7 @@ permalink: /projects/
       </h3>
         <div class="proj-meta">West Africa · A five-year project </div>
         <p class="proj-desc">
-          Understanding how sustainable sourcing policies affect biodiversity protection, climate mitigation,
+          Understanding how sustainable sourcing policies can support biodiversity protection, climate mitigation,
           and smallholder livelihoods in the West African cocoa sector.
         </p>
         <div class="proj-tags">
