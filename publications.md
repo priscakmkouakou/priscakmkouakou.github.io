@@ -83,19 +83,22 @@ permalink: /publications/
 
 </div>
 
-## <i class="fa-regular fa-newspaper"></i> Blog posts & other publications
+## <i class="fa-regular fa-landmark"></i> Policy briefs & reports
 
 <div class="pub-grid">
 
   <article class="pub-card">
     <h3 class="pub-title">
-      <i class="fa-regular fa-newspaper"></i> Establishing a West African experts network for contributing to IPBES work program
+      <i class="fa-regular fa-landmark"></i> Agroforestry and forest conservation in cocoa supply chain initiatives in west africa: integrating agroforestry and forest conservation initiatives in supply sheds
     </h3>
-    <div class="pub-meta">2017 · WABES Project First Regional Workshop Report</div>
+    <div class="pub-meta">2024 · Conservation and Development Lab</div>
     <div class="pub-actions">
-      <a class="primary" href="https://www.wabes.org/files/wabes_content/workshop_reports/WABES-Expert-Workshop-Abidjan-2017-Report_anonym.pdf" target="_blank" rel="noopener">Read</a>
+      <a class="primary" href="https://www.cdl.geog.cam.ac.uk/wp-content/uploads/Policy-Brief-Agroforestry_2025.pdf" target="_blank" rel="noopener">Read</a>
     </div>
-  </article>
+
+## <i class="fa-regular fa-newspaper"></i> Blog posts & other publications
+
+<div class="pub-grid">
 
   <article class="pub-card">
     <h3 class="pub-title">
@@ -106,5 +109,16 @@ permalink: /publications/
       <a class="primary" href="https://www.unep-wcmc.org/en/news/young-african-professionals-share-how-they-have-been-empowered-to-tackle-environmental-challenges" target="_blank" rel="noopener">Read</a>
     </div>
   </article>
+  
+  <article class="pub-card">
+    <h3 class="pub-title">
+      <i class="fa-regular fa-newspaper"></i> Establishing a West African experts network for contributing to IPBES work program
+    </h3>
+    <div class="pub-meta">2017 · WABES Project First Regional Workshop Report</div>
+    <div class="pub-actions">
+      <a class="primary" href="https://www.wabes.org/files/wabes_content/workshop_reports/WABES-Expert-Workshop-Abidjan-2017-Report_anonym.pdf" target="_blank" rel="noopener">Read</a>
+    </div>
+  </article>
+
 
 </div>
