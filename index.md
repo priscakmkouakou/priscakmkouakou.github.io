@@ -115,16 +115,79 @@ layout: default
   
   <h2>Featured publications</h2>
 
-<table>
-  <tr>
-    <td><strong>2025</strong></td>
-    <td>Cammelli, F., Addoah, T., Furrer, N.A., [Kouakou, P.], Lyons-White, J., Renier, C., Thompson, W. and Garrett, R.D. <em><a href="https://doi.org/10.1088/2976-601X/adf117">Scaling out agroforestry and forest conservation in West Africa requires more transformative policy interventions in cocoa supply chains.</a></em>. <em>Environmental Research: Food Systems, 2025</em>.</td>
-  </tr>
-  <tr>
-    <td><strong>2025</strong></td>
-    <td>Addoah, T., Lyons-White, J., Cammelli, F., [Kouakou, K.M.-P.], Carodenuto, S., Thompson, W.J., Renier, C. and Garrett, R.D. <em><a href="https://doi.org/10.1002/sd.3380">Is the Implementation of Cocoa Companies’ Forest Policies on Track to Effectively and Equitably Address Deforestation in West Africa?</a></em>. <em>Sustainable Development</em>.</td>
-  </tr>
-</table>
+<style>
+.pub-card {
+  background-color: #eaf7ea;   /* light green */
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.pub-card h3 {
+  margin-top: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.pub-card .journal {
+  font-style: italic;
+  color: #555;
+  font-size: 0.95rem;
+}
+.pub-card .authors {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+  color: #333;
+}
+.pub-card .abstract {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.pub-card a.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2b6e2f;   /* darker green link */
+  text-decoration: none;
+}
+.pub-card a.read-more:hover {
+  text-decoration: underline;
+}
+</style>
+
+<div class="pub-card">
+  <h3>
+    <a href="https://doi.org/10.1088/2976-601X/adf117">
+      Scaling out agroforestry and forest conservation in West Africa requires more transformative policy interventions in cocoa supply chains
+    </a>
+  </h3>
+  <div class="journal">2025 · <em>Environmental Research: Food Systems</em></div>
+  <div class="authors">
+    F. Cammelli, T. Addoah, N.A. Furrer, <strong>P. Kouakou</strong>, J. Lyons-White, C. Renier, W. Thompson, R.D. Garrett
+  </div>
+  <div class="abstract">
+    <strong>Abstract:</strong> Tropical forests are vanishing at an unprecedented rate due to the expansion of commodity production, while climate change is putting increasing strain on food systems. Côte d’Ivoire and Ghana produce over half of the world’s cocoa, a multi-billion-dollar industry, yet most cocoa producers in these two countries live below the poverty line, and economic vulnerability is further exacerbated by climate change and ongoing deforestation largely driven by cocoa expansion. Companies have recently begun implementing policies to promote forest restoration, halt deforestation, and improve farmers’ livelihoods, but there is increasing evidence that these efforts are falling short in terms of both effectiveness and equity. This perspective article argues that several critical design flaws are central to the short-comings of these company policies that are likely to be exacerbated with the new EU deforestation regulation. The first problem is that they target a sub-optimal scale, focusing largely on individual suppliers or on landscape approaches that are only partially implemented, rather than on more manageable supply shed scales. The second flaw is that they focus on tree planting and agroforestry over conservation of remaining forests. We propose that cocoa firms and importing countries embrace more transformative policy approaches that target the correct scale and ambition to tackle structural issues influencing supply chain sustainability and achieve synergies between environmental and social outcomes. First, policies must be integrated in a mitigation and conservation hierarchy, focusing on conservation, not just tree planting. Second, companies must expand their approach beyond their individual supply chains to the broader supply sheds where they source.
+  </div>
+  <a class="read-more" href="https://doi.org/10.1088/2976-601X/adf117">Read more →</a>
+</div>
+
+<div class="pub-card">
+  <h3>
+    <a href="https://doi.org/10.1002/sd.3380">
+      Is the Implementation of Cocoa Companies’ Forest Policies on Track to Effectively and Equitably Address Deforestation in West Africa?
+    </a>
+  </h3>
+  <div class="journal">2025 · <em>Sustainable Development</em></div>
+  <div class="authors">
+    T. Addoah, J. Lyons-White, F. Cammelli, <strong>K.M.-P. Kouakou</strong>, S. Carodenuto, W.J. Thompson, C. Renier, R.D. Garrett
+  </div>
+  <div class="abstract">
+    <strong>Abstract:</strong> Tropical forests play a crucial role in achieving the sustainable development goals by contributing to climate stability, conserving biodiversity and sustaining livelihoods. However, forests are disappearing due to agricultural expansion. In West Africa, cocoa production is a major driver of deforestation. This study examines the design and implementation of forest-focused supply chain policies (FSPs) in cocoa supply chains in Côte d'Ivoire and Ghana, the world's two leading cocoa producers. FSPs are voluntary policies of companies to combat deforestation, restore forests, and improve farmers' livelihoods. Drawing on 91 stakeholder interviews, we developed a conceptual framework to examine FSPs' theory of change, implementation and potential effectiveness and equity. Our findings reveal shortcomings in FSPs' design and implementation. FSPs are mostly narrowly focused on preventing illegal deforestation and only target farmers in companies' ‘direct’ supply chains, neglecting important landscape-scale approaches and processes. Companies also fail to include smallholder farmers sufficiently in policy design and implementation. Lastly, FSPs prioritise productivity enhancement but overlook the importance of addressing farmers' social norms and values. We provide recommendations on how to address the shortcomings to achieve sustainable cocoa production.
+  </div>
+  <a class="read-more" href="https://doi.org/10.1002/sd.3380">Read more →</a>
+</div>
+
 
 
 
