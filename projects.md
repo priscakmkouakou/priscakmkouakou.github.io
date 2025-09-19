@@ -11,7 +11,7 @@ permalink: /projects/
     <!-- Project 1 -->
     <article class="proj-card horizontal">
       <div class="proj-media">
-        <img src="/assets/projects/sustain-cocoa.jpg" alt="SUSTAIN-COCOA project illustration">
+        <img src="/assets/sustain-cocoa.jpg" alt="SUSTAIN-COCOA project illustration">
       </div>
       <div class="proj-body">
         <h3 class="proj-title">SUSTAIN-COCOA</h3>
