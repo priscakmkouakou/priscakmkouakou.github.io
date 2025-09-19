@@ -115,6 +115,8 @@ layout: default
   
   <h2>Featured publications</h2>
 
+## Featured Publications
+
 <style>
 .pub-card{
   background:#eaf7ea; /* light green */
@@ -126,25 +128,26 @@ layout: default
 .pub-card h3{margin:0 0 .25rem 0;font-size:1.15rem;font-weight:600;}
 .pub-card .journal{font-style:italic;color:#555;font-size:.95rem;}
 .pub-card .authors{margin:.5rem 0;color:#333;font-size:.95rem;}
-.abstract-preview{margin-top:.5rem;font-size:.92rem;line-height:1.45;}
 
-/* details/summary: link-like button + chevron */
-details{margin-top:.4rem;}
-summary{cursor:pointer; list-style:none; display:inline-flex; align-items:center; gap:.35rem;}
-summary::-webkit-details-marker{display:none;}
-.summary-link{font-weight:600;font-size:.92rem;color:#2b6e2f;text-decoration:none;border-bottom:1px solid transparent;}
-summary:hover .summary-link{border-bottom-color:#2b6e2f;}
-.chev{transition:transform .15s ease;}
-
-/* toggle text: show “more” by default, switch to “less” when open */
-.more{display:inline;}
-.less{display:none;}
-details[open] .more{display:none;}
-details[open] .less{display:inline;}
-details[open] .chev{transform:rotate(180deg);}
-
-/* full abstract block */
-.abstract-full{margin:.5rem 0 0 0;font-size:.92rem;line-height:1.55;}
+.abstract{font-size:.92rem;line-height:1.55;margin:.6rem 0 0 0;}
+/* expander: keep the toggle at the bottom */
+.expander input{display:none;}
+.expander .extra{display:none;}
+.expander label{
+  display:inline-flex; align-items:center; gap:.35rem;
+  font-weight:600; font-size:.92rem; color:#2b6e2f;
+  cursor:pointer; user-select:none; text-decoration:none; border-bottom:1px solid transparent;
+}
+.expander label:hover{border-bottom-color:#2b6e2f;}
+/* when checked, reveal extra content and swap label text */
+.expander input:checked ~ .extra{display:inline;}
+.expander .more{display:inline;}
+.expander .less{display:none;}
+.expander input:checked ~ label .more{display:none;}
+.expander input:checked ~ label .less{display:inline;}
+/* optional chevron */
+.expander .chev{transition:transform .15s ease;}
+.expander input:checked ~ label .chev{transform:rotate(180deg);}
 </style>
 
 <div class="pub-card">
@@ -156,27 +159,24 @@ details[open] .chev{transform:rotate(180deg);}
     F. Cammelli, T. Addoah, N.A. Furrer, <strong>P. Kouakou</strong>, J. Lyons-White, C. Renier, W. Thompson, R.D. Garrett
   </div>
 
-  <p class="abstract-preview">
-    In this paper we examine how cocoa supply chain interventions in West Africa can support the scaling of
-    agroforestry and forest conservation through policy transformation, identifying leverage points and barriers across
-    firms and governance actors.
+  <p class="abstract">
+    We examine how cocoa supply-chain interventions in West Africa can support the scaling of agroforestry and forest conservation
+    by identifying leverage points and barriers across firms and governance actors.
   </p>
 
-  <details>
-    <summary>
-      <span class="summary-link">
-        <span class="more">Read more</span>
-        <span class="less">Read less</span>
-      </span>
+  <div class="expander">
+    <input id="abs1" type="checkbox">
+    <span class="extra abstract">
+      We synthesize evidence from policy analysis and sector interviews to compare voluntary corporate commitments with public regulation.
+      Transformative impact requires stronger incentive alignment, targeted smallholder finance, and monitoring frameworks that value
+      agroforestry outcomes alongside deforestation risk reduction.
+    </span>
+    <label for="abs1">
+      <span class="more">Read more</span>
+      <span class="less">Read less</span>
       <span class="chev">▾</span>
-    </summary>
-    <p class="abstract-full">
-      We synthesize evidence from policy analysis and sector interviews to evaluate the effectiveness of existing
-      sustainability initiatives, comparing voluntary corporate commitments with public regulation. We find that
-      transformative impact requires stronger incentive alignment, smallholder finance, and monitoring frameworks that
-      explicitly value agroforestry outcomes alongside deforestation risk reduction.
-    </p>
-  </details>
+    </label>
+  </div>
 </div>
 
 <div class="pub-card">
@@ -188,23 +188,22 @@ details[open] .chev{transform:rotate(180deg);}
     T. Addoah, J. Lyons-White, F. Cammelli, <strong>K.M.-P. Kouakou</strong>, S. Carodenuto, W.J. Thompson, C. Renier, R.D. Garrett
   </div>
 
-  <p class="abstract-preview">
-    We evaluate how company forest policies align with equitable deforestation reduction, focusing on smallholder
-    inclusion, transparency, and accountability across Côte d’Ivoire and Ghana.
+  <p class="abstract">
+    We evaluate how company forest policies align with equitable deforestation reduction, focusing on smallholder inclusion,
+    transparency, and accountability across Côte d’Ivoire and Ghana.
   </p>
 
-  <details>
-    <summary>
-      <span class="summary-link">
-        <span class="more">Read more</span>
-        <span class="less">Read less</span>
-      </span>
+  <div class="expander">
+    <input id="abs2" type="checkbox">
+    <span class="extra abstract">
+      <strong>Abstract:</strong> Using a policy-scoring framework and document review, we identify gaps in implementation timelines, farmer support,
+      and grievance mechanisms. Without targeted smallholder financing and fair burden sharing, policies risk uneven impacts
+      and limited forest outcomes.
+    </span>
+    <label for="abs2">
+      <span class="more">Read more</span>
+      <span class="less">Read less</span>
       <span class="chev">▾</span>
-    </summary>
-    <p class="abstract-full">
-      Using a policy scoring framework and document review, we identify gaps in implementation timelines, farmer
-      support, and grievance mechanisms. Without targeted smallholder financing and fair burden sharing, policies risk
-      uneven impacts and limited forest outcomes.
-    </p>
-  </details>
+    </label>
+  </div>
 </div>
