@@ -5,7 +5,7 @@ layout: default
 <style>
 /* Make the bio section wider */
 .lead {
-  max-width: 700px;   /* default was ~600px */
+  max-width: 550px;   /* default was ~600px */
   margin: 0 auto;     /* keep it centered */
   font-size: 1.05rem; /* optional: slightly larger text */
   line-height: 1.6;
