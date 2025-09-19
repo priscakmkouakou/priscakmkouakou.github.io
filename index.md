@@ -18,7 +18,8 @@ layout: default
   </p>
 </div>
 
-  ## News
+<div class="section">
+  <h2>News</h2>
 
 <style>
   /* --- News list styling --- */
