@@ -2,6 +2,24 @@
 title: Prisca Kouakou
 layout: default
 ---
+<style>
+/* Make the bio section wider */
+.lead {
+  max-width: 900px;   /* default was ~600px */
+  margin: 0 auto;     /* keep it centered */
+  font-size: 1.05rem; /* optional: slightly larger text */
+  line-height: 1.6;
+  text-align: left;   /* align text left instead of centered */
+}
+
+/* Make the profile picture larger */
+.avatar {
+  width: 220px;   /* increase size (try 220–250px) */
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+</style>
 
 <div class="hero">
   <img class="avatar" src="/assets/profile.jpg" alt="Prisca Kouakou headshot">
@@ -13,29 +31,8 @@ layout: default
     <a href="https://www.linkedin.com/in/maria-prisca-kouakou/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
     <a href="/docs/KouakouCV_August2025.pdf" title="Curriculum Vitae" target="_blank"><i class="fa-solid fa-file-lines"></i></a>
   </div>
+  
   <h1 class="hero-name">Prisca Kouakou</h1>
-
-  <style>
-  /* --- News list styling --- */
-  .news-list {list-style: none; margin: 0; padding: 0;}
-  .news-item {
-    display: flex; gap: 1rem; align-items: flex-start;
-    padding: .6rem 0; border-bottom: 1px solid rgba(127,127,127,.2);
-  }
-  .news-date {
-    flex: 0 0 7.5rem; /* left column width */
-    font-weight: 600; white-space: nowrap; color: inherit; opacity: .8;
-  }
-  .news-text {flex: 1 1 auto; min-width: 0;}
-  .news-text a {text-decoration: none; border-bottom: 1px solid currentColor;}
-  .news-text a:hover {text-decoration: none; border-bottom-color: transparent;}
-  /* Small screens: stack a bit tighter */
-  @media (max-width: 480px) {
-    .news-item {gap: .6rem;}
-    .news-date {flex-basis: 6.5rem; font-weight: 600;}
-  }
-</style>
-
   <p class="lead">
   I am an interdisciplinary researcher with backgrounds in ecology, environmental science, and social science.
   Currently, I am a PhD Candidate in the <a href="https://www.geog.cam.ac.uk/people/kouakou/">Department of Geography at the University of Cambridge</a>,   supported by the Cambridge Trust Scholarship. My research examines the conditions under which supply chain sustainability initiatives 
