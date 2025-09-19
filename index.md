@@ -9,12 +9,12 @@ layout: default
   margin: 0 auto;     /* keep it centered */
   font-size: 1.05rem; /* optional: slightly larger text */
   line-height: 1.6;
-  text-align: left;   /* align text left instead of centered */
+  text-align: centered;   /* align text centered instead of centered */
 }
 
 /* Make the profile picture larger */
 .avatar {
-  width: 220px;   /* increase size (try 220–250px) */
+  width: 250px;   /* increase size (try 220–250px) */
   height: auto;
   border-radius: 50%;
   margin-bottom: 1rem;
