@@ -53,7 +53,7 @@ permalink: /publications/
   <!-- 2 -->
   <article class="pub-card">
     <h3 class="pub-title">
-      Scaling out agroforestry and forest conservation in West Africa requires more transformative policy interventions in cocoa supply chains
+      <i class="fa-solid fa-file-lines"></i> Scaling out agroforestry and forest conservation in West Africa requires more transformative policy interventions in cocoa supply chains
     </h3>
     <div class="pub-meta">2025 · <em>Environmental Research: Food Systems</em></div>
     <div class="pub-authors">
@@ -68,7 +68,7 @@ permalink: /publications/
   <!-- 3 -->
   <article class="pub-card">
     <h3 class="pub-title">
-      Is the Implementation of Cocoa Companies’ Forest Policies on Track to Effectively and Equitably Address Deforestation in West Africa?
+      <i class="fa-solid fa-file-lines"></i> Is the Implementation of Cocoa Companies’ Forest Policies on Track to Effectively and Equitably Address Deforestation in West Africa?
     </h3>
     <div class="pub-meta">2025 · <em>Sustainable Development</em></div>
     <div class="pub-authors">
@@ -89,7 +89,7 @@ permalink: /publications/
 
   <article class="pub-card">
     <h3 class="pub-title">
-      Establishing a West African experts network for contributing to IPBES work program
+      <i class="fa-regular fa-newspaper"></i> Establishing a West African experts network for contributing to IPBES work program
     </h3>
     <div class="pub-meta">2017 · WABES Project First Regional Workshop Report</div>
     <div class="pub-actions">
@@ -99,7 +99,7 @@ permalink: /publications/
 
   <article class="pub-card">
     <h3 class="pub-title">
-      Young African professionals share how they have been empowered to tackle environmental challenges
+      <i class="fa-regular fa-newspaper"></i> Young African professionals share how they have been empowered to tackle environmental challenges
     </h3>
     <div class="pub-meta">2024 · UNEP-WCMC</div>
     <div class="pub-actions">
