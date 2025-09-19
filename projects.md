@@ -12,6 +12,7 @@ permalink: /projects/
     <article class="proj-card horizontal">
       <div class="proj-media">
         <img src="/assets/sustain-cocoa.jpg" alt="SUSTAIN-COCOA project illustration">
+        <span class="photo-credit">Photo by Emmanuel Bobbie</span>
       </div>
       <div class="proj-body">
         <h3 class="proj-title">
@@ -87,6 +88,21 @@ permalink: /projects/
   color:var(--muted);
 }
 .proj-media img{ width:100%; height:100%; object-fit:cover; display:block; }
+
+.proj-media {
+  position: relative;
+}
+
+.photo-credit {
+  position: absolute;
+  bottom: 6px;
+  right: 10px;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
 
 /* Text */
 .proj-title{ margin:.1rem 0 .25rem 0; font-size:1.25rem; font-weight:700; line-height:1.3; }
