@@ -1,14 +1,25 @@
 ---
-title: "Prisca Kouakou"
+title: Home
 layout: default
 ---
-![My photo](/assets/profile.jpg)
 
-# Hello, I'm Prisca 👋
+<div class="hero">
+  <img class="avatar" src="/assets/profile.jpg" alt="Prisca Kouakou headshot">
+  <div class="icons">
+    <a href="mailto:you@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://scholar.google.com/citations?user=XXXX" title="Google Scholar"><i class="fa-brands fa-google"></i></a>
+    <a href="https://orcid.org/0000-0000-0000-0000" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+    <a href="https://www.linkedin.com/in/yourprofile" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="/docs/CV.pdf" title="CV (PDF)" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+  </div>
+  <h1 class="hero-name">Prisca Kouakou</h1>
+  <p class="lead">
+    I am an interdisciplinary researcher with backgrounds in Geography, Environmental Studies, and Sustainability Science.
+    My work focuses on sustainable land-use, supply-chain governance, and policy implementation in the tropics.
+  </p>
+</div>
 
-I’m a PhD Candidate at the Conservation and Development Lab, University of Cambridge. This site hosts my bio, projects, and CV.
-
-- [About](about.md)
-- [Projects](projects.md)
-- [Curriculum Vitae](docs/KouakouCV_August2025.pdf)  <!-- this will work after step 3 -->
-- [Email](mailto:you@example.com)
+<div class="section">
+  <h2>Education</h2>
+  <p><strong>Doctoral Candidate</strong>, University / Dept — 202X–present</p>
+</div>
