@@ -9,5 +9,5 @@ I’m a PhD Candidate at the Conservation and Development Lab, University of Cam
 
 - [About](about.md)
 - [Projects](projects.md)
-- [Curriculum Vitae (PDF)](docs/CV.pdf)  <!-- this will work after step 3 -->
+- [Curriculum Vitae](docs/CV.pdf)  <!-- this will work after step 3 -->
 - [Email](mailto:you@example.com)
