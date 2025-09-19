@@ -14,7 +14,7 @@ layout: default
 
 /* Make the profile picture larger */
 .avatar {
-  width: 300px;   /* increase size (try 220–250px) */
+  width: 600px;   /* increase size (try 220–250px) */
   height: auto;
   border-radius: 50%;
   margin-bottom: 1rem;
