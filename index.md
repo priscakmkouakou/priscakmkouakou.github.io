@@ -59,10 +59,17 @@ layout: default
     </div>
   </li>
 
+<li class="news-item">
+    <time class="news-date">Aug 25, 2025</time>
+    <div class="news-text">
+      I joined the <a href="https://glp.earth/who-we-are/members">Global Land Program</a> as a member.
+    </div>
+  </li>
+  
   <li class="news-item">
     <time class="news-date">Feb 13, 2025</time>
     <div class="news-text">
-      Invited guest speaker at the 
+      I was invited as a guest speaker at the 
       <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming">Cambridge Global Food Security Lunchtime Conversation</a> on 
       “Socio-economic levers to scale up more sustainable farming.”
     </div>
@@ -71,8 +78,15 @@ layout: default
   <li class="news-item">
     <time class="news-date">Nov 4, 2024</time>
     <div class="news-text">
-      Attended the <a href="https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems">Global Land Programme 5th Open Science Meeting</a> and gave a talk on 
+      I attended the <a href="https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems">Global Land Programme 5th Open Science Meeting</a> and gave a talk on 
       “Identifying enablers for just sustainability transitions to scale up cocoa agroforestry in West Africa.”
+    </div>
+  </li>
+
+  <li class="news-item">
+    <time class="news-date">Dec 8, 2023</time>
+    <div class="news-text">
+      I returned from a six-month fieldwork campaign in Côte d’Ivoire, where I worked with smallholder cocoa farmers. The campaign aimed to (1) identify suitable study communities, (2) recruit farmers through free, prior, and informed consent, and (3) conduct property-level drone surveys, household surveys, and on-farm biomass assessments. With the support of five field researchers whom I have recruited and trained, we surveyed 350 households and 128 cocoa farms. The resulting dataset will enable me to analyse the determinants of agroforestry adoption and adoption intensity, as well as their socio-economic and ecological implications for smallholder cocoa farmers. 
     </div>
   </li>
 
