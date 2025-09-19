@@ -25,7 +25,7 @@ permalink: /projects/
           and smallholder livelihoods in the West African cocoa sector.
         </p>
         <div class="proj-tags">
-          <span class="proj-tag">nature-based solutions</span>
+          <span class="proj-tag">nature-based solutions (NbS)</span>
           <span class="proj-tag">supply chains</span>
           <span class="proj-tag">climate</span>
           <span class="proj-tag">livelihoods</span>
