@@ -38,7 +38,7 @@ permalink: /publications/
   <!-- 1 -->
   <article class="pub-card">
     <h3 class="pub-title">
-      Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa
+      <i class="fa-solid fa-file-lines"></i> Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa
     </h3>
     <div class="pub-meta">2025 · Sustainable Development</div>
     <div class="pub-authors">
