@@ -55,16 +55,15 @@ layout: default
   position: relative;
 }
 
-/* vertical line runs behind pills */
+/* vertical line that starts at first pill and ends at last pill */
 .news-list::before {
   content: "";
   position: absolute;
-  top: 1.2rem;         /* start around first pill middle */
-  bottom: 1.2rem;      /* end around last pill middle */
-  left: 50%;           /* center of the list container */
-  transform: translateX(-50%);
+  top: 1.2rem;   /* offset so it begins at the middle of the first pill */
+  bottom: 1.2rem;/* stop at middle of last pill */
+  left: 3.75rem; /* half of .news-date column (7.5rem / 2) */
   width: 2px;
-  background: #cfe7d3;
+  background: #cfe7d3; /* soft green */
   z-index: 0;
 }
 
