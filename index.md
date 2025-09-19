@@ -25,25 +25,6 @@ layout: default
 <div class="section">
   <h2>News</h2>
 
-<style>
-  /* --- News list styling --- */
-  .news-list {list-style: none; margin: 0; padding: 0;}
-  .news-item {
-    display: flex; gap: 1rem; align-items: flex-start;
-    padding: .6rem 0; border-bottom: 1px solid rgba(127,127,127,.2);
-  }
-  .news-date {
-    flex: 0 0 7.5rem; /* left column width */
-    font-weight: 600; white-space: nowrap; color: inherit; opacity: .8;
-  }
-  .news-text {flex: 1 1 auto; min-width: 0;}
-  .news-text a {text-decoration: none; border-bottom: 1px solid currentColor;}
-  .news-text a:hover {text-decoration: none; border-bottom-color: transparent;}
-  /* Small screens: stack a bit tighter */
-  @media (max-width: 480px) {
-    .news-item {gap: .6rem;}
-    .news-date {flex-basis: 6.5rem; font-weight: 600;}
-  }
 </style>
 
 <ul class="news-list">
