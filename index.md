@@ -48,48 +48,62 @@ layout: default
 
 <style>
   /* --- News list styling --- */
-  .news-list {
+.news-list {
   list-style: none;
   margin: 0;
   padding: 0;
   position: relative;
 }
 
-/* vertical line behind date pills */
+/* vertical line runs behind pills */
 .news-list::before {
   content: "";
   position: absolute;
-  top: 1.2rem;   /* start mid first pill */
-  bottom: 1.2rem;/* end mid last pill */
-  left: 3.75rem; /* center of date column (7.5rem / 2) */
+  top: 1.2rem;         /* start around first pill middle */
+  bottom: 1.2rem;      /* end around last pill middle */
+  left: 50%;           /* center of the list container */
+  transform: translateX(-50%);
   width: 2px;
   background: #cfe7d3;
   z-index: 0;
 }
 
-/* news items */
+/* each news item row */
 .news-item {
   display: flex;
+  align-items: center;  /* center content vertically */
   gap: 1rem;
-  align-items: flex-start;
-  padding: .6rem 0;
-  border-bottom: 1px solid rgba(127,127,127,.2);
+  padding: .9rem 0;
   position: relative;
   z-index: 1;
+  border-bottom: 1px solid rgba(127,127,127,.2);
 }
 
-/* pill-styled dates */
+/* pill-styled dates (centered horizontally) */
 .news-date {
-  flex: 0 0 7.5rem;
+  min-width: 7.5rem;
   font-weight: 600;
-  white-space: nowrap;
   color: #1f2937;
   background: #eaf7ea;
   border-radius: 999px;
   padding: .25rem .6rem;
   text-align: center;
+  margin: 0 auto;       /* centers pill in its column */
   box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-  z-index: 2; /* keep pill above line */
+  z-index: 2;
+}
+
+/* right-side text */
+.news-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.news-text a {
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+.news-text a:hover {
+  border-bottom-color: transparent;
 }
 
 /* right side text */
