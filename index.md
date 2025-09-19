@@ -159,6 +159,28 @@ layout: default
 </style>
 
 <div class="pub-card">
+  <h3><a href="https://doi.org/10.17863/CAM.121371">
+    Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa
+  </a></h3>
+  <div class="journal">2025 · <em>Sustainable Development</em></div>
+  <div class="authors">
+    <strong>K. M.-P. Kouakou</strong>, J. Lyons-White, W. Thompson, T. Addoah, F. Cammelli,  W. J. Blaser-Hart, V. Maguire-Rajpaul, E. Dawoe, R.D. Garrett
+  </div>
+
+  <div class="expander">
+    <input id="abs1" type="checkbox">
+    <p class="abstract">
+      <strong>Abstract:</strong> Sustainability transitions in agri-food systems are required to address climate change, biodiversity loss, and social inequities. In the West African cocoa sector, supply chain sustainability initiatives (SSIs) have emerged as key environmental governance tools to address these challenges and promote agroforestry. Agroforestry is a climate adaptation strategy that supports both nature and the livelihoods of smallholder farmers, yet its adoption remains limited. This study combines the Multi-Level Perspective (MLP) and the Creative Destruction (CD) frameworks to qualitatively assess how the interventions of SSIs influence the scaling up of agroforestry adoption in Côte d’Ivoire and Ghana. Through policy mapping, 101 semi-structured interviews and focus groups with governments, private companies, NGOs, and cocoa farmers, we found that most interventions (~93%) support agroforestry as a niche innovation, relying on extension services and short-term incentives. Only 7% of the interventions pursue regime-level changes, such as land and tree tenure reforms, which remain limited due to institutional and informal barriers. Additionally, SSIs have not significantly changed policy network structures, and smallholder farmers remain excluded from governance processes. Based on these findings, we recommend that scaling up agroforestry adoption requires regime destabilisation interventions, including the integration and strengthening of land and tree tenure reforms, as well as the simplification of tree registration procedures. Furthermore, greater efforts are needed to ensure the inclusion of smallholders within policy networks, as their participation remains limited.
+    </p>
+    <label for="abs1">
+      <span class="more">Read more</span>
+      <span class="less">Read less</span>
+      <span class="chev">▾</span>
+    </label>
+  </div>
+</div>
+
+<div class="pub-card">
   <h3><a href="https://doi.org/10.1088/2976-601X/adf117">
     Scaling out agroforestry and forest conservation in West Africa requires more transformative policy interventions in cocoa supply chains
   </a></h3>
