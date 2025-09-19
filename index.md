@@ -170,8 +170,6 @@ layout: default
 </ul>
 </div>
 
----
-
 <div class="section">
   
   <h2>Featured publications</h2>
@@ -284,4 +282,38 @@ layout: default
     </label>
   </div>
 </div>
+
+<div class="cv-box">
+  <a href="/docs/KouakouCV_August2025.pdf" target="_blank">
+    <i class="fa-solid fa-download"></i> Curriculum Vitae
+  </a>
+</div>
+
+<style>
+.cv-box {
+  margin: 2rem 0;
+  text-align: center;
+}
+.cv-box a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #eaf7ea;        /* light green background */
+  border: 1px solid #cfe7d3;  /* soft green border */
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #1f2937;             /* dark gray text */
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+.cv-box a i {
+  margin-right: 0.5rem;
+  color: #2b6e2f;             /* dark green icon */
+}
+.cv-box a:hover {
+  background: #d9f0db;        /* darker green hover */
+  border-color: #2b6e2f;
+  color: #2b6e2f;
+}
+</style>
 
