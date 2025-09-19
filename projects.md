@@ -17,9 +17,8 @@ permalink: /projects/
         <h3 class="proj-title">SUSTAIN-COCOA</h3>
         <div class="proj-meta">Current implementation</div>
         <p class="proj-desc">
-          Sustainable sourcing policies for biodiversity protection, climate mitigation,
-          and improved livelihoods in the West African cocoa sector. A five-year project
-          focusing on smallholder cocoa farmers in West Africa.
+          A five-year project focusing on understanding the impacts of sustainable sourcing policies on biodiversity protection, climate mitigation,
+          and improved livelihoods in the West African cocoa sector. [https://www.sustain-cocoa.earth/](#) 
         </p>
         <div class="proj-tags">
           <span class="proj-tag">Deforestation</span>
