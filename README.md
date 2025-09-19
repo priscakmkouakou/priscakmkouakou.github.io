@@ -1,5 +1,3 @@
-# GitHub Markdown Cheat Sheet
-
 ## Headings
 # H1
 ## H2
