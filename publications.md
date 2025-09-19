@@ -83,18 +83,21 @@ permalink: /publications/
 
 </div>
 
-## <i class="fa-regular fa-landmark"></i> Policy briefs & reports
+## <i class="fa-solid fa-landmark"></i> Policy briefs & reports
 
 <div class="pub-grid">
 
   <article class="pub-card">
     <h3 class="pub-title">
-      <i class="fa-regular fa-landmark"></i> Agroforestry and forest conservation in cocoa supply chain initiatives in west africa: integrating agroforestry and forest conservation initiatives in supply sheds
+      <i class="fa-solid fa-landmark"></i> Agroforestry and forest conservation in cocoa supply chain initiatives in West Africa: integrating agroforestry and forest conservation initiatives in supply sheds
     </h3>
     <div class="pub-meta">2024 · Conservation and Development Lab</div>
     <div class="pub-actions">
       <a class="primary" href="https://www.cdl.geog.cam.ac.uk/wp-content/uploads/Policy-Brief-Agroforestry_2025.pdf" target="_blank" rel="noopener">Read</a>
     </div>
+  </article>
+
+</div>
 
 ## <i class="fa-regular fa-newspaper"></i> Blog posts & other publications
 
