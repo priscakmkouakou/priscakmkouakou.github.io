@@ -24,7 +24,6 @@ layout: default
 
 <div class="section">
   <h2>News</h2>
-## News
 
 <style>
   /* --- News list styling --- */
