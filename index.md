@@ -116,44 +116,35 @@ layout: default
   <h2>Featured publications</h2>
 
 <style>
-.pub-card {
-  background-color: #eaf7ea;   /* light green */
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+.pub-card{
+  background:#eaf7ea; /* light green */
+  border-radius:12px;
+  padding:1.5rem;
+  margin-bottom:1.25rem;
+  box-shadow:0 2px 4px rgba(0,0,0,.06);
 }
-.pub-card h3 { margin: 0 0 .25rem 0; font-size: 1.15rem; font-weight: 600; }
-.pub-card .journal { font-style: italic; color: #555; font-size: .95rem; }
-.pub-card .authors { margin: .5rem 0; font-size: .95rem; color: #333; }
+.pub-card h3{margin:0 0 .25rem 0;font-size:1.15rem;font-weight:600;}
+.pub-card .journal{font-style:italic;color:#555;font-size:.95rem;}
+.pub-card .authors{margin:.5rem 0;color:#333;font-size:.95rem;}
+.abstract-preview{margin-top:.5rem;font-size:.92rem;line-height:1.45;}
 
-/* Preview clamp (shows 2 lines until expanded) */
-.abstract-preview {
-  margin-top: .5rem;
-  font-size: .92rem;
-  line-height: 1.4;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
+/* details/summary: link-like button + chevron */
+details{margin-top:.4rem;}
+summary{cursor:pointer; list-style:none; display:inline-flex; align-items:center; gap:.35rem;}
+summary::-webkit-details-marker{display:none;}
+.summary-link{font-weight:600;font-size:.92rem;color:#2b6e2f;text-decoration:none;border-bottom:1px solid transparent;}
+summary:hover .summary-link{border-bottom-color:#2b6e2f;}
+.chev{transition:transform .15s ease;}
 
-/* Details/summary styling to look like a link */
-details { margin-top: .35rem; }
-details > summary {
-  list-style: none; cursor: pointer;
-  display: inline-block; font-weight: 600; font-size: .92rem;
-  color: #2b6e2f; /* dark green */
-}
-details > summary::-webkit-details-marker { display: none; }
-details[open] > summary { color: #205123; }
+/* toggle text: show “more” by default, switch to “less” when open */
+.more{display:inline;}
+.less{display:none;}
+details[open] .more{display:none;}
+details[open] .less{display:inline;}
+details[open] .chev{transform:rotate(180deg);}
 
-/* Optional: tiny chevron */
-summary::after {
-  content: "  ▾";
-  font-weight: 400;
-}
-details[open] summary::after { content: "  ▴"; }
+/* full abstract block */
+.abstract-full{margin:.5rem 0 0 0;font-size:.92rem;line-height:1.55;}
 </style>
 
 <div class="pub-card">
@@ -172,8 +163,14 @@ details[open] summary::after { content: "  ▴"; }
   </p>
 
   <details>
-    <summary>Read more</summary>
-    <p class="abstract-full" style="margin-top:.4rem; font-size:.92rem; line-height:1.5;">
+    <summary>
+      <span class="summary-link">
+        <span class="more">Read more</span>
+        <span class="less">Read less</span>
+      </span>
+      <span class="chev">▾</span>
+    </summary>
+    <p class="abstract-full">
       We synthesize evidence from policy analysis and sector interviews to evaluate the effectiveness of existing
       sustainability initiatives, comparing voluntary corporate commitments with public regulation. We find that
       transformative impact requires stronger incentive alignment, smallholder finance, and monitoring frameworks that
@@ -197,15 +194,17 @@ details[open] summary::after { content: "  ▴"; }
   </p>
 
   <details>
-    <summary>Read more</summary>
-    <p class="abstract-full" style="margin-top:.4rem; font-size:.92rem; line-height:1.5;">
+    <summary>
+      <span class="summary-link">
+        <span class="more">Read more</span>
+        <span class="less">Read less</span>
+      </span>
+      <span class="chev">▾</span>
+    </summary>
+    <p class="abstract-full">
       Using a policy scoring framework and document review, we identify gaps in implementation timelines, farmer
-      support, and grievance mechanisms. We argue that without targeted smallholder financing and fair burden sharing,
-      policies risk uneven impacts and limited forest outcomes.
+      support, and grievance mechanisms. Without targeted smallholder financing and fair burden sharing, policies risk
+      uneven impacts and limited forest outcomes.
     </p>
   </details>
 </div>
-
-
-
-
