@@ -42,28 +42,66 @@ layout: default
 </p>
 </div>
 
----
+
 <div class="section">
   <h2>News</h2>
 
 <style>
   /* --- News list styling --- */
-  .news-list {list-style: none; margin: 0; padding: 0;}
-  .news-item {
-    display: flex; gap: 1rem; align-items: flex-start;
-    padding: .6rem 0; border-bottom: 1px solid rgba(127,127,127,.2);
-  }
-  .news-date {
-  flex: 0 0 7.5rem;   /* left column width */
+  .news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* vertical line behind date pills */
+.news-list::before {
+  content: "";
+  position: absolute;
+  top: 1.2rem;   /* start mid first pill */
+  bottom: 1.2rem;/* end mid last pill */
+  left: 3.75rem; /* center of date column (7.5rem / 2) */
+  width: 2px;
+  background: #cfe7d3;
+  z-index: 0;
+}
+
+/* news items */
+.news-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: .6rem 0;
+  border-bottom: 1px solid rgba(127,127,127,.2);
+  position: relative;
+  z-index: 1;
+}
+
+/* pill-styled dates */
+.news-date {
+  flex: 0 0 7.5rem;
   font-weight: 600;
   white-space: nowrap;
-  color: #1f2937;     /* darker text */
-  background: #eaf7ea; /* light green background */
-  border-radius: 999px; /* pill shape */
+  color: #1f2937;
+  background: #eaf7ea;
+  border-radius: 999px;
   padding: .25rem .6rem;
   text-align: center;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.05); /* optional subtle depth */
-  }
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  z-index: 2; /* keep pill above line */
+}
+
+/* right side text */
+.news-text {flex: 1 1 auto; min-width: 0;}
+.news-text a {text-decoration: none; border-bottom: 1px solid currentColor;}
+.news-text a:hover {border-bottom-color: transparent;}
+
+/* mobile */
+@media (max-width: 480px) {
+  .news-item {gap: .6rem;}
+  .news-date {flex-basis: 6.5rem; font-weight: 600;}
+}
   .news-text {flex: 1 1 auto; min-width: 0;}
   .news-text a {text-decoration: none; border-bottom: 1px solid currentColor;}
   .news-text a:hover {text-decoration: none; border-bottom-color: transparent;}
