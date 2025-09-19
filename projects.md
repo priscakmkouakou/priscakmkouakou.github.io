@@ -14,17 +14,11 @@ permalink: /projects/
         <img src="/assets/sustain-cocoa.jpg" alt="SUSTAIN-COCOA project illustration">
       </div>
       <div class="proj-body">
-        <h3 class="proj-title">SUSTAIN-COCOA</h3>
-        <div class="proj-meta">Current implementation</div>
+        <h3 class="proj-title"><a class="primary" href="https://www.sustain-cocoa.earth/" target="_blank"><i class="fa-solid fa-cocoa"></i>SUSTAIN-COCOA</h3></a>
         <p class="proj-desc">
           A five-year project focusing on understanding the impacts of sustainable sourcing policies on biodiversity protection, climate mitigation,
-          and improved livelihoods in the West African cocoa sector. [https://www.sustain-cocoa.earth/](#) 
+          and improved livelihoods in the West African cocoa sector. 
         </p>
-        <div class="proj-tags">
-          <span class="proj-tag">Deforestation</span>
-          <span class="proj-tag">Supply chains</span>
-          <span class="proj-tag">Climate mitigation</span>
-          <span class="proj-tag">Livelihoods</span>
         </div>
         <div class="proj-actions">
           <a class="primary" href="https://doi.org/10.1002/sd.3380" target="_blank"><i class="fa-solid fa-book-open"></i> Paper</a>
