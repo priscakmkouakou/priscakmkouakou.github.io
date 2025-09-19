@@ -92,6 +92,9 @@ permalink: /publications/
       <i class="fa-solid fa-landmark"></i> Agroforestry and forest conservation in cocoa supply chain initiatives in West Africa: integrating agroforestry and forest conservation initiatives in supply sheds
     </h3>
     <div class="pub-meta">2024 · Conservation and Development Lab</div>
+    <div class="pub-authors">
+    F. Cammelli, J. Lyons-White, T. Addoah, N. A. Furrer, C. Renier, <strong>K. M.-P. Kouakou</strong>, P. Meyfroidt, W. Thompson, C. Y. Adou Yao, V. Guye, R Garrett
+      </div>
     <div class="pub-actions">
       <a class="primary" href="https://www.cdl.geog.cam.ac.uk/wp-content/uploads/Policy-Brief-Agroforestry_2025.pdf" target="_blank" rel="noopener">Read</a>
     </div>
