@@ -42,6 +42,7 @@ layout: default
 </p>
 </div>
 
+---
 <div class="section">
   <h2>News</h2>
 
@@ -53,8 +54,15 @@ layout: default
     padding: .6rem 0; border-bottom: 1px solid rgba(127,127,127,.2);
   }
   .news-date {
-    flex: 0 0 7.5rem; /* left column width */
-    font-weight: 600; white-space: nowrap; color: inherit; opacity: .8;
+  flex: 0 0 7.5rem;   /* left column width */
+  font-weight: 600;
+  white-space: nowrap;
+  color: #1f2937;     /* darker text */
+  background: #eaf7ea; /* light green background */
+  border-radius: 999px; /* pill shape */
+  padding: .25rem .6rem;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05); /* optional subtle depth */
   }
   .news-text {flex: 1 1 auto; min-width: 0;}
   .news-text a {text-decoration: none; border-bottom: 1px solid currentColor;}
@@ -110,113 +118,6 @@ layout: default
 
 </ul>
 </div>
-
----
-## News
-
-<style>
-/* ===== Timeline theme (tweak these) ===== */
-.news-tl{
-  --accent: #2b6e2f;   /* dark green for headings/links (optional) */
-  --pill:   #eaf7ea;   /* light-green date pill */
-  --line:   #cfe7d3;   /* vertical line color */
-  --card-bg:#fff;      /* news card background */
-  --card-br:#e5e7eb;   /* news card border */
-  max-width: 1000px;
-  margin: 0 auto 1.75rem auto;
-  display: grid;
-  grid-template-columns: 9rem 1rem 1fr; /* date | spacer | card */
-  gap: .75rem 1rem;
-  align-items: start;
-  position: relative;
-}
-
-/* vertical connecting line runs behind the date column */
-.news-tl::before{
-  content:"";
-  grid-column: 1;             /* place under date column */
-  grid-row: 1 / -1;
-  justify-self: center;
-  width: 4px;
-  background: var(--line);
-  border-radius: 2px;
-}
-
-/* date pill overlays the line */
-.news-date{
-  grid-column: 1;
-  align-self: center;
-  position: relative; z-index: 1;
-  background: var(--pill);
-  color: #1f2937;
-  font-weight: 700;
-  font-size: .9rem;
-  padding: .35rem .6rem;
-  border-radius: 999px;
-  text-align: center;
-  box-shadow: 0 1px 0 rgba(0,0,0,.04);
-}
-
-/* right-side card */
-.news-card{
-  grid-column: 3;
-  background: var(--card-bg);
-  border: 1px solid var(--card-br);
-  padding: .9rem 1rem;
-  border-radius: 12px;
-  box-shadow: 0 1px 2px rgba(0,0,0,.03);
-}
-.news-title{ margin: 0; font-weight: 600; }
-.news-card p{ margin: .35rem 0 0 0; }
-
-/* links */
-.news-card a{ text-decoration: none; border-bottom: 1px solid currentColor; }
-.news-card a:hover{ border-bottom-color: transparent; }
-
-/* small screens */
-@media (max-width: 640px){
-  .news-tl{ grid-template-columns: 7.2rem .8rem 1fr; }
-  .news-card{ padding: .75rem .85rem; }
-}
-</style>
-
-<div class="news-tl">
-
-  <!-- Item 1 -->
-  <div class="news-date">Sep 15, 2025</div>
-  <div></div>
-  <div class="news-card">
-    <h3 class="news-title">
-      First-author PhD paper accepted — 
-      <a href="https://www.repository.cam.ac.uk/handle/1810/389512">Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa</a>
-    </h3>
-    <p>Accepted in <em>Sustainable Development</em>. 🎉</p>
-  </div>
-
-  <!-- Item 2 -->
-  <div class="news-date">Feb 13, 2025</div>
-  <div></div>
-  <div class="news-card">
-    <h3 class="news-title">
-      Invited Speaker — 
-      <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming/">Cambridge Global Food Security Lunchtime Conversation</a>
-    </h3>
-    <p>“Socio-economic levers to scale up more sustainable farming.”</p>
-  </div>
-
-  <!-- Item 3 -->
-  <div class="news-date">Nov 4, 2024</div>
-  <div></div>
-  <div class="news-card">
-    <h3 class="news-title">
-      Talk — 
-      <a href="https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems/">Global Land Programme 5th Open Science Meeting</a>
-    </h3>
-    <p>“Identifying enablers for just sustainability transitions to scale up cocoa agroforestry in West Africa.”</p>
-  </div>
-
-</div>
-
 
 ---
 
