@@ -4,7 +4,7 @@ layout: default
 permalink: /publications/
 ---
 
-## Research articles
+## <i class="fa-solid fa-book-open"></i> Research articles
 
 <style>
 .pub-grid{max-width: 1000px; margin: 0 auto;}
@@ -76,12 +76,13 @@ permalink: /publications/
     </div>
     <div class="pub-actions">
       <a class="primary" href="https://doi.org/10.1002/sd.3380" target="_blank" rel="noopener">Open DOI</a>
+      <a href="https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sd.3380?download=true" target="_blank" rel="noopener">Download</a>
     </div>
   </article>
 
 </div>
 
-## Blog posts & other publications
+## <i class="fa-regular fa-newspaper"></i> Blog posts & other publications
 
 <div class="pub-grid">
 
