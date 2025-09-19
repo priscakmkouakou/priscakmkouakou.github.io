@@ -18,26 +18,59 @@ layout: default
   </p>
 </div>
 
+  ## News
 
-<div class="section">
-  <h2>News</h2>
+<style>
+  /* --- News list styling --- */
+  .news-list {list-style: none; margin: 0; padding: 0;}
+  .news-item {
+    display: flex; gap: 1rem; align-items: flex-start;
+    padding: .6rem 0; border-bottom: 1px solid rgba(127,127,127,.2);
+  }
+  .news-date {
+    flex: 0 0 7.5rem; /* left column width */
+    font-weight: 600; white-space: nowrap; color: inherit; opacity: .8;
+  }
+  .news-text {flex: 1 1 auto; min-width: 0;}
+  .news-text a {text-decoration: none; border-bottom: 1px solid currentColor;}
+  .news-text a:hover {text-decoration: none; border-bottom-color: transparent;}
+  /* Small screens: stack a bit tighter */
+  @media (max-width: 480px) {
+    .news-item {gap: .6rem;}
+    .news-date {flex-basis: 6.5rem; font-weight: 600;}
+  }
+</style>
 
-  <table>
-   <tr>
-    <td><strong>Sep 15, 2025</strong></td>
-    <td>My first-author and first-PhD paper titled <a href="https://www.repository.cam.ac.uk/handle/1810/389512/">"Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa"</a> has been accepted for publication in Sustainable Development!!!</td>
-  </tr> 
+<ul class="news-list">
 
-  <tr>
-    <td><strong>Feb 13, 2025</strong></td>
-    <td>I was invited as a guest speaker at the <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming/">Cambridge Global Food Security Lunchtime Conversation</a>, where I spoke on “Socio-economic levers to scale up more sustainable farming.”</td>
-  </tr>
-  
-  <tr>
-    <td><strong>Nov 4, 2024</strong></td>
-    <td>I attended the <a href="https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems/">Global Land Programme 5th Open Science Meeting</a>, and gave a talk on “Identifying enablers for just sustainability transition to scale up cocoa agroforestry in West Africa”.</td>
-  </tr>
-  <table>
+  <li class="news-item">
+    <time class="news-date">Sep 15, 2025</time>
+    <div class="news-text">
+      My first-author and first-PhD paper, 
+      <a href="[YOUR-LINK](https://www.repository.cam.ac.uk/handle/1810/389512/)">“Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa”</a>,
+      has been accepted in <em>Sustainable Development</em>!
+    </div>
+  </li>
+
+  <li class="news-item">
+    <time class="news-date">Feb 13, 2025</time>
+    <div class="news-text">
+      Invited guest speaker at the 
+      <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming/">Cambridge Global Food Security Lunchtime Conversation</a> on 
+      “Socio-economic levers to scale up more sustainable farming.”
+    </div>
+  </li>
+
+  <li class="news-item">
+    <time class="news-date">Nov 4, 2024</time>
+    <div class="news-text">
+      Attended the <a href="[YOUR-LINK](https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems/)">Global Land Programme 5th Open Science Meeting</a> and gave a talk on 
+      “Identifying enablers for just sustainability transitions to scale up cocoa agroforestry in West Africa.”
+    </div>
+  </li>
+
+</ul>
+
 
 <div class="section">
   <h2>Featured publications</h2>
