@@ -77,41 +77,6 @@ layout: default
 
 </ul>
 
-
-
-
-  
-
-<ul class="news-list">
-
-  <li class="news-item">
-    <time class="news-date">Sep 15, 2025</time>
-    <div class="news-text">
-      My first-author and first-PhD paper, 
-      <a href="YOUR-LINK">“Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa”</a>,
-      has been accepted in <em>Sustainable Development</em>!
-    </div>
-  </li>
-
-  <li class="news-item">
-    <time class="news-date">Feb 13, 2025</time>
-    <div class="news-text">
-      Invited guest speaker at the 
-      <a href="YOUR-LINK">Cambridge Global Food Security Lunchtime Conversation</a> on 
-      “Socio-economic levers to scale up more sustainable farming.”
-    </div>
-  </li>
-
-  <li class="news-item">
-    <time class="news-date">Nov 4, 2024</time>
-    <div class="news-text">
-      Attended the <a href="YOUR-LINK">Global Land Programme 5th Open Science Meeting</a> and gave a talk on 
-      “Identifying enablers for just sustainability transitions to scale up cocoa agroforestry in West Africa.”
-    </div>
-  </li>
-
-</ul>
-
 <div class="section">
   <h2>Featured publications</h2>
 
