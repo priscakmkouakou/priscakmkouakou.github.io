@@ -2,4 +2,4 @@ title: "Prisca Kouakou"
 description: "PhD Candidate"
 theme: jekyll-theme-minimal   # try: jekyll-theme-cayman, jekyll-theme-minimal, jekyll-theme-slate, etc.
 plugins:
-- jekyll-seo-tag
+  - jekyll-seo-tag
