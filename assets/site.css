@@ -1,0 +1,17 @@
+:root { --max: 820px; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #222; line-height: 1.6; background: #fff; }
+.topbar { border-bottom: 1px solid #e6e6e6; background: #fafafa; }
+.nav { max-width: var(--max); margin: 0 auto; padding: .8rem 1rem; display: flex; gap: 1.5rem; justify-content: center; }
+.nav a { text-decoration: none; color: #444; padding-bottom: .2rem; }
+.nav a.active { border-bottom: 2px solid #bbb; }
+.container { max-width: var(--max); margin: 2rem auto; padding: 0 1rem; }
+.hero { text-align: center; }
+.hero img.avatar { width: 160px; height: 160px; object-fit: cover; border-radius: 50%; border: 6px solid #fff; box-shadow: 0 0 0 1px #e6e6e6; }
+.icons { margin: .8rem 0 0.6rem; display: flex; gap: .9rem; justify-content: center; font-size: 1.1rem; }
+.icons a { color: #333; text-decoration: none; }
+h1.hero-name { margin: .2rem 0 0.8rem; font-size: 1.8rem; }
+.lead { max-width: 62ch; margin: 0.8rem auto 1.6rem; color: #555; }
+.section { margin: 2rem 0; }
+.section h2 { font-size: 1.2rem; margin-bottom: .4rem; }
+.footer { max-width: var(--max); margin: 3rem auto 2rem; padding: 0 1rem; color: #777; font-size: .9rem; text-align: center; }
