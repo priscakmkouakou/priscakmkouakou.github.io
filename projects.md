@@ -25,16 +25,16 @@ permalink: /projects/
           and smallholder livelihoods in the West African cocoa sector.
         </p>
         <div class="proj-tags">
-          <span class="proj-tag">agroforestry</span>
+          <span class="proj-tag">nature-based solutions</span>
           <span class="proj-tag">supply chains</span>
           <span class="proj-tag">climate</span>
           <span class="proj-tag">livelihoods</span>
         </div>
         <div class="proj-actions">
-          <a class="primary" href="https://doi.org/10.1002/sd.3380" target="_blank" rel="noopener">
-            <i class="fa-solid fa-book-open"></i> Paper
+          <a class="primary" href="https://priscakmkouakou.github.io/publications/" target="_blank" rel="noopener">
+            <i class="fa-solid fa-book-open"></i> Papers
           </a>
-          <a href="https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems/" target="_blank" rel="noopener">
+          <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming" target="_blank" rel="noopener">
             <i class="fa-solid fa-chalkboard-user"></i> Talk
           </a>
           <a href="https://github.com/priscakmkouakou" target="_blank" rel="noopener">
