@@ -2,6 +2,19 @@
 title: Prisca Kouakou
 layout: default
 ---
+<style>
+  /* --- Intro layout --- */
+  .intro {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem;
+    margin-bottom: 2rem; 
+  }
+  .intro img {
+    width: 180px; /* adjust size here */
+    height: auto; border-radius: 50%; 
+  }
+  .intro-text {
+    flex: 1 1 300px; font-size: 1rem; line-height: 1.6; color: inherit;
+  }
 
 <div class="hero">
   <img class="avatar" src="/assets/profile.jpg" alt="Prisca Kouakou headshot">
@@ -14,7 +27,8 @@ layout: default
   </div>
   <h1 class="hero-name">Prisca Kouakou</h1>
   <p class="lead">
-   I am an interdisciplinary researcher with backgrounds in ecology, environmental science and social science. Currently, I am a PhD Candidate in the Department of Geography at the University of Cambridge, supported by the Cambridge Trust Studentship. My work is supervised by Professor Rachael Garrett. My research examines the conditions under which supply chain sustainability initiatives can lead to the adoption of agroforestry and how these initiatives shape social and ecological outcomes in the cocoa sectors of Côte d’Ivoire and Ghana. I use a mixed-methods approach that combines policy analysis with biophysical and household surveys. 
+   I am an interdisciplinary researcher with backgrounds in ecology, environmental science and social science. Currently, I am a PhD Candidate in the Department of Geography at the University of Cambridge, supported by the Cambridge Trust Studentship. My work is supervised by Professor Rachael Garrett. My research examines the conditions under which supply chain sustainability initiatives can lead to the adoption of agroforestry and how these initiatives shape social and ecological outcomes in the cocoa sectors of Côte d’Ivoire and Ghana. <br><br>
+    I use a mixed-methods approach that combines policy analysis with biophysical and household surveys. 
   </p>
 </div>
 
