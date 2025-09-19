@@ -115,107 +115,88 @@ layout: default
 ## News
 
 <style>
-/* ===== Timeline base ===== */
-.timeline {
-  --line: #cfe7d3;        /* spine color (soft green) */
-  --accent: #2b6e2f;      /* dot + date color (dark green) */
-  --card-bg: #eaf7ea;     /* card background (light green) */
-  --muted: #6b7280;       /* year label color */
-  max-width: 980px;
-  margin: 0 auto 1.5rem auto;
-  display: grid;
-  grid-template-columns: 6rem 2.2rem 1fr;
-  gap: .75rem 1rem;
-  align-items: start;
-  position: relative;
+/* ===== Timeline variables (tweak here) ===== */
+.news-tl{
+  --accent: #2b6e2f;      /* dark green for dots */
+  --pill:   #eaf7ea;      /* light-green pill for dates */
+  --line:   #cfe7d3;      /* spine color */
+  --text-m: #6b7280;      /* muted text */
+  --card-bg:#fff;         /* right card background */
+  --card-br:#e5e7eb;      /* right card border */
+  max-width: 1000px; margin: 0 auto 1.75rem auto;
+  display: grid; grid-template-columns: 9rem 2.2rem 1fr; gap: .75rem 1rem;
+  align-items: start; position: relative;
 }
 
 /* vertical spine */
-.timeline::before {
-  content: "";
-  grid-column: 2;
-  grid-row: 1 / -1;
-  justify-self: center;
-  width: 4px;
-  background: linear-gradient(180deg, var(--line), var(--line));
-  border-radius: 2px;
+.news-tl::before{
+  content:""; grid-column:2; grid-row:1 / -1; justify-self:center;
+  width:4px; background:var(--line); border-radius:2px;
 }
 
-/* year label (left) */
-.tl-year {
-  grid-column: 1;
-  color: var(--muted);
-  font-weight: 700;
-  letter-spacing: .02em;
-  align-self: center;
-  padding-top: .25rem;
+/* date pill on the left */
+.news-date{
+  grid-column:1; align-self:center;
+  background:var(--pill); color:#1f2937; font-weight:700;
+  padding:.35rem .6rem; border-radius:999px; text-align:center;
+  box-shadow: 0 1px 0 rgba(0,0,0,.04);
+  font-size:.9rem;
 }
 
 /* dot on the spine */
-.tl-node {
-  grid-column: 2;
-  justify-self: center;
-  width: 14px; height: 14px;
-  background: var(--accent);
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px #fff; /* white ring for contrast */
-  margin-top: .4rem;
+.news-node{
+  grid-column:2; justify-self:center; margin-top:.4rem;
+  width:14px; height:14px; background:var(--accent); border-radius:50%;
+  box-shadow:0 0 0 4px #fff;
 }
 
-/* card on the right */
-.tl-card {
-  grid-column: 3;
-  background: var(--card-bg);
-  border-radius: 14px;
-  padding: 1rem 1.25rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,.06);
+/* right-side card */
+.news-card{
+  grid-column:3; background:var(--card-bg); border:1px solid var(--card-br);
+  padding:.85rem 1rem; border-radius:12px; box-shadow:0 1px 2px rgba(0,0,0,.03);
 }
+.news-title{ margin:0; font-weight:600; }
+.news-card p{ margin:.35rem 0 0 0; }
 
-/* inside the card */
-.tl-when { font-weight: 700; color: var(--accent); margin: 0 0 .2rem 0; }
-.tl-title { margin: 0; font-weight: 600; }
-.tl-card p { margin: .35rem 0 0 0; }
-
-/* compact on small screens */
-@media (max-width: 580px) {
-  .timeline { grid-template-columns: 4.5rem 1.8rem 1fr; }
-  .tl-card { padding: .85rem 1rem; }
+/* Compact mobile layout */
+@media (max-width: 640px){
+  .news-tl{ grid-template-columns: 7.2rem 1.8rem 1fr; }
+  .news-card{ padding: .75rem .85rem; }
 }
 </style>
 
-<div class="timeline">
-
-  <!-- 2025 -->
-  <div class="tl-year">2025</div>
-  <div class="tl-node"></div>
-  <div class="tl-card">
-    <div class="tl-when">Sep 15, 2025</div>
-    <div class="tl-title">
-      My first-author PhD paper, <a href="https://www.repository.cam.ac.uk/handle/1810/389512">Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa</a>, accepted in <em>Sustainable Development</em>.
-    </div>
+<div class="news-tl">
+  <!-- News Item 1 -->
+  <div class="news-date">Sep 15, 2025</div>
+  <div class="news-node"></div>
+  <div class="news-card">
+    <h3 class="news-title">
+      My first-author PhD paper <a href="https://www.repository.cam.ac.uk/handle/1810/389512">Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa</a>
+    </h3>
+    <p>Accepted in <em>Sustainable Development</em>. 🎉</p>
   </div>
 
-  <!-- same year (leave tl-year empty to avoid repeating the label) -->
-  <div class="tl-year"></div>
-  <div class="tl-node"></div>
-  <div class="tl-card">
-    <div class="tl-when">Feb 13, 2025</div>
-    <div class="tl-title">
-      Invited speaker at the <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming/">Cambridge Global Food Security Lunchtime Conversation</a> — “Socio-economic levers to scale up more sustainable farming.”
-    </div>
+  <!-- News Item 2 -->
+  <div class="news-date">Feb 13, 2025</div>
+  <div class="news-node"></div>
+  <div class="news-card">
+    <h3 class="news-title">
+      Invited Speaker — <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming/">Cambridge Global Food Security Lunchtime Conversation</a>
+    </h3>
+    <p>Talk on “Socio-economic levers to scale up more sustainable farming.”</p>
   </div>
 
-  <!-- 2024 -->
-  <div class="tl-year">2024</div>
-  <div class="tl-node"></div>
-  <div class="tl-card">
-    <div class="tl-when">Nov 4, 2024</div>
-    <div class="tl-title">
-      Talk at the <a href="https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems/">Global Land Programme 5th Open Science Meeting</a> — “Identifying enablers for just sustainability transitions to scale up cocoa agroforestry in West Africa.”
-    </div>
+  <!-- News Item 3 -->
+  <div class="news-date">Nov 4, 2024</div>
+  <div class="news-node"></div>
+  <div class="news-card">
+    <h3 class="news-title">
+      Talk at the <a href="https://glp.earth/news-events/events/5th-open-science-meeting-pathways-sustainable-and-just-land-systems/">Global Land Programme 5th Open Science Meeting</a>
+    </h3>
+    <p>Presented “Identifying enablers for just sustainability transitions to scale up cocoa agroforestry in West Africa.”</p>
   </div>
-
 </div>
+
 ---
 
 <div class="section">
