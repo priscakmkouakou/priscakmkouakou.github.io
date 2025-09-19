@@ -20,6 +20,6 @@ layout: default
 </div>
 
 <div class="section">
-  <h2>Education</h2>
-  <p><strong>Doctoral Candidate</strong>, University / Dept — 202X–present</p>
+  <h2>News</h2>
+  <p><strong>Feb 13, 2025</strong>,  I was invited as a guest speaker at the Cambridge Global Food Security Lunchtime Conversation, where I spoke on “Socio-economic levers to scale up more sustainable farming.”</p>
 </div>
