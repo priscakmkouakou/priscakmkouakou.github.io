@@ -2,6 +2,7 @@
 title: "Prisca Kouakou"
 layout: default
 ---
+![My photo](/assets/profile.jpg)
 
 # Hello, I'm Prisca 👋
 
