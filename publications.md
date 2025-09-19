@@ -40,14 +40,13 @@ permalink: /publications/
     <h3 class="pub-title">
       Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa
     </h3>
-    <div class="pub-meta">2025 · Cambridge Repository</div>
+    <div class="pub-meta">2025 · Sustainable Development</div>
     <div class="pub-authors">
       <strong>K. M.-P. Kouakou</strong>, J. Lyons-White, W. J. Thompson, T. Addoah, F. Cammelli, W. J. Blaser-Hart,
       V. Maguire-Rajpaul, E. Dawoe, R. D. Garrett
     </div>
     <div class="pub-actions">
       <a class="primary" href="https://www.repository.cam.ac.uk/handle/1810/389512" target="_blank" rel="noopener">View</a>
-      <a href="https://www.repository.cam.ac.uk/handle/1810/389512" target="_blank" rel="noopener">Repository</a>
     </div>
   </article>
 
@@ -62,7 +61,6 @@ permalink: /publications/
     </div>
     <div class="pub-actions">
       <a class="primary" href="https://doi.org/10.1088/2976-601X/adf117" target="_blank" rel="noopener">Open DOI</a>
-      <a href="https://doi.org/10.1088/2976-601X/adf117" target="_blank" rel="noopener">Publisher</a>
     </div>
   </article>
 
@@ -78,7 +76,6 @@ permalink: /publications/
     </div>
     <div class="pub-actions">
       <a class="primary" href="https://doi.org/10.1002/sd.3380" target="_blank" rel="noopener">Open DOI</a>
-      <a href="https://doi.org/10.1002/sd.3380" target="_blank" rel="noopener">Publisher</a>
     </div>
   </article>
 
@@ -95,7 +92,6 @@ permalink: /publications/
     <div class="pub-meta">2017 · WABES Project First Regional Workshop Report</div>
     <div class="pub-actions">
       <a class="primary" href="https://www.wabes.org/files/wabes_content/workshop_reports/WABES-Expert-Workshop-Abidjan-2017-Report_anonym.pdf" target="_blank" rel="noopener">Read</a>
-      <a href="https://www.wabes.org/files/wabes_content/workshop_reports/WABES-Expert-Workshop-Abidjan-2017-Report_anonym.pdf" target="_blank" rel="noopener">PDF</a>
     </div>
   </article>
 
@@ -106,7 +102,6 @@ permalink: /publications/
     <div class="pub-meta">2024 · UNEP-WCMC</div>
     <div class="pub-actions">
       <a class="primary" href="https://www.unep-wcmc.org/en/news/young-african-professionals-share-how-they-have-been-empowered-to-tackle-environmental-challenges" target="_blank" rel="noopener">Read</a>
-      <a href="https://www.unep-wcmc.org/en/news/young-african-professionals-share-how-they-have-been-empowered-to-tackle-environmental-challenges" target="_blank" rel="noopener">Website</a>
     </div>
   </article>
 
