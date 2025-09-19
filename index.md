@@ -115,9 +115,8 @@ layout: default
   
   <h2>Featured publications</h2>
 
-## Featured Publications
-
 <style>
+/* Card look */
 .pub-card{
   background:#eaf7ea; /* light green */
   border-radius:12px;
@@ -129,24 +128,33 @@ layout: default
 .pub-card .journal{font-style:italic;color:#555;font-size:.95rem;}
 .pub-card .authors{margin:.5rem 0;color:#333;font-size:.95rem;}
 
-.abstract{font-size:.92rem;line-height:1.55;margin:.6rem 0 0 0;}
-/* expander: keep the toggle at the bottom */
+/* Expander: keep toggle at the bottom */
 .expander input{display:none;}
-.expander .extra{display:none;}
+
+/* Clamped preview: show only 2 lines + ellipsis */
+.abstract{
+  font-size:.92rem; line-height:1.55; margin:.6rem 0 0 0;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+  overflow:hidden; text-overflow:ellipsis;
+}
+
+/* When expanded, remove the clamp */
+.expander input:checked ~ .abstract{
+  -webkit-line-clamp:unset; overflow:visible;
+}
+
+/* Toggle link styles */
 .expander label{
   display:inline-flex; align-items:center; gap:.35rem;
   font-weight:600; font-size:.92rem; color:#2b6e2f;
   cursor:pointer; user-select:none; text-decoration:none; border-bottom:1px solid transparent;
 }
 .expander label:hover{border-bottom-color:#2b6e2f;}
-/* when checked, reveal extra content and swap label text */
-.expander input:checked ~ .extra{display:inline;}
-.expander .more{display:inline;}
-.expander .less{display:none;}
+.more{display:inline;}
+.less{display:none;}
 .expander input:checked ~ label .more{display:none;}
 .expander input:checked ~ label .less{display:inline;}
-/* optional chevron */
-.expander .chev{transition:transform .15s ease;}
+.chev{transition:transform .15s ease;}
 .expander input:checked ~ label .chev{transform:rotate(180deg);}
 </style>
 
@@ -159,18 +167,11 @@ layout: default
     F. Cammelli, T. Addoah, N.A. Furrer, <strong>P. Kouakou</strong>, J. Lyons-White, C. Renier, W. Thompson, R.D. Garrett
   </div>
 
-  <p class="abstract">
-    We examine how cocoa supply-chain interventions in West Africa can support the scaling of agroforestry and forest conservation
-    by identifying leverage points and barriers across firms and governance actors.
-  </p>
-
   <div class="expander">
     <input id="abs1" type="checkbox">
-    <span class="extra abstract">
-      We synthesize evidence from policy analysis and sector interviews to compare voluntary corporate commitments with public regulation.
-      Transformative impact requires stronger incentive alignment, targeted smallholder finance, and monitoring frameworks that value
-      agroforestry outcomes alongside deforestation risk reduction.
-    </span>
+    <p class="abstract">
+      <strong>Abstract:</strong> Tropical forests are vanishing at an unprecedented rate due to the expansion of commodity production, while climate change is putting increasing strain on food systems. Côte d’Ivoire and Ghana produce over half of the world’s cocoa, a multi-billion-dollar industry, yet most cocoa producers in these two countries live below the poverty line, and economic vulnerability is further exacerbated by climate change and ongoing deforestation largely driven by cocoa expansion. Companies have recently begun implementing policies to promote forest restoration, halt deforestation, and improve farmers’ livelihoods, but there is increasing evidence that these efforts are falling short in terms of both effectiveness and equity. This perspective article argues that several critical design flaws are central to the short-comings of these company policies that are likely to be exacerbated with the new EU deforestation regulation. The first problem is that they target a sub-optimal scale, focusing largely on individual suppliers or on landscape approaches that are only partially implemented, rather than on more manageable supply shed scales. The second flaw is that they focus on tree planting and agroforestry over conservation of remaining forests. We propose that cocoa firms and importing countries embrace more transformative policy approaches that target the correct scale and ambition to tackle structural issues influencing supply chain sustainability and achieve synergies between environmental and social outcomes. First, policies must be integrated in a mitigation and conservation hierarchy, focusing on conservation, not just tree planting. Second, companies must expand their approach beyond their individual supply chains to the broader supply sheds where they source.
+    </p>
     <label for="abs1">
       <span class="more">Read more</span>
       <span class="less">Read less</span>
@@ -188,18 +189,11 @@ layout: default
     T. Addoah, J. Lyons-White, F. Cammelli, <strong>K.M.-P. Kouakou</strong>, S. Carodenuto, W.J. Thompson, C. Renier, R.D. Garrett
   </div>
 
-  <p class="abstract">
-    We evaluate how company forest policies align with equitable deforestation reduction, focusing on smallholder inclusion,
-    transparency, and accountability across Côte d’Ivoire and Ghana.
-  </p>
-
   <div class="expander">
     <input id="abs2" type="checkbox">
-    <span class="extra abstract">
-      <strong>Abstract:</strong> Using a policy-scoring framework and document review, we identify gaps in implementation timelines, farmer support,
-      and grievance mechanisms. Without targeted smallholder financing and fair burden sharing, policies risk uneven impacts
-      and limited forest outcomes.
-    </span>
+    <p class="abstract">
+      <strong>Abstract:</strong> Tropical forests play a crucial role in achieving the sustainable development goals by contributing to climate stability, conserving biodiversity and sustaining livelihoods. However, forests are disappearing due to agricultural expansion. In West Africa, cocoa production is a major driver of deforestation. This study examines the design and implementation of forest-focused supply chain policies (FSPs) in cocoa supply chains in Côte d'Ivoire and Ghana, the world's two leading cocoa producers. FSPs are voluntary policies of companies to combat deforestation, restore forests, and improve farmers' livelihoods. Drawing on 91 stakeholder interviews, we developed a conceptual framework to examine FSPs' theory of change, implementation and potential effectiveness and equity. Our findings reveal shortcomings in FSPs' design and implementation. FSPs are mostly narrowly focused on preventing illegal deforestation and only target farmers in companies' ‘direct’ supply chains, neglecting important landscape-scale approaches and processes. Companies also fail to include smallholder farmers sufficiently in policy design and implementation. Lastly, FSPs prioritise productivity enhancement but overlook the importance of addressing farmers' social norms and values. We provide recommendations on how to address the shortcomings to achieve sustainable cocoa production.
+    </p>
     <label for="abs2">
       <span class="more">Read more</span>
       <span class="less">Read less</span>
@@ -207,3 +201,4 @@ layout: default
     </label>
   </div>
 </div>
+
