@@ -25,8 +25,6 @@ layout: default
 <div class="section">
   <h2>News</h2>
 
-</style>
-
 <ul class="news-list">
 
   <li class="news-item">
