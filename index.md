@@ -143,6 +143,8 @@ layout: default
   font-size:.9rem;
 }
 
+/* mask the node */
+.news-node { display: none; }
 /* dot on the spine */
 .news-node{
   grid-column:2; justify-self:center; margin-top:.4rem;
