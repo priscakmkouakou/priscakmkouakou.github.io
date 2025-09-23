@@ -139,7 +139,7 @@ layout: default
 <li class="news-item">
     <time class="news-date">Aug 25, 2025</time>
     <div class="news-text">
-      I joined the <a href="https://glp.earth/who-we-are/members">Global Land Program</a> as a member.
+      I joined the <a href="https://glp.earth/users/prisca-kouakou">Global Land Programme</a> as a member.
     </div>
   </li>
   
