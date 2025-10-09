@@ -128,6 +128,15 @@ layout: default
 <ul class="news-list">
 
   <li class="news-item">
+    <time class="news-date">Oct 7, 2025</time>
+    <div class="news-text">
+      I applied for the Junior Research Fellowship at Trinity College, Cambridge and was unsuccessful!
+    </div>
+  </li>
+
+<ul class="news-list">
+
+  <li class="news-item">
     <time class="news-date">Sep 15, 2025</time>
     <div class="news-text">
       My first-author and first-PhD paper, 
