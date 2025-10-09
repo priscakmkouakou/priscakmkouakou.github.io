@@ -130,7 +130,7 @@ layout: default
   <li class="news-item">
     <time class="news-date">Oct 7, 2025</time>
     <div class="news-text">
-      I applied for the Junior Research Fellowship at Trinity College, Cambridge and was unsuccessful!
+      I applied for the Junior Research Fellowship at Trinity College, Cambridge and was unsuccessful.
     </div>
   </li>
 
