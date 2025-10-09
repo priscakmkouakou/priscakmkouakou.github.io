@@ -134,8 +134,6 @@ layout: default
     </div>
   </li>
 
-<ul class="news-list">
-
   <li class="news-item">
     <time class="news-date">Sep 15, 2025</time>
     <div class="news-text">
