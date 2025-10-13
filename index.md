@@ -225,7 +225,7 @@ layout: default
 </style>
 
 <div class="pub-card">
-  <h3><a href="https://doi.org/10.17863/CAM.121371">
+  <h3><a href="https://onlinelibrary.wiley.com/doi/10.1002/sd.70266">
     Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa
   </a></h3>
   <div class="journal">2025 · <em>Sustainable Development</em></div>
