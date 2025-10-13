@@ -138,7 +138,7 @@ layout: default
     <time class="news-date">Sep 15, 2025</time>
     <div class="news-text">
       My first-author and first-PhD paper, 
-      <a href="https://www.repository.cam.ac.uk/handle/1810/389512">“Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa”</a>,
+      <a href="https://onlinelibrary.wiley.com/doi/10.1002/sd.70266">“Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa”</a>,
       has been accepted in <em>Sustainable Development</em>!
     </div>
   </li>
