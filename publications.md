@@ -46,7 +46,8 @@ permalink: /publications/
       V. Maguire-Rajpaul, E. Dawoe, R. D. Garrett
     </div>
     <div class="pub-actions">
-      <a class="primary" href="https://www.repository.cam.ac.uk/handle/1810/389512" target="_blank" rel="noopener">View</a>
+        <a class="primary" href="https://doi.org/10.1002/sd.70266" target="_blank" rel="noopener">Open DOI</a>
+        <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/sd.70266" target="_blank" rel="noopener">Download</a>
     </div>
   </article>
 
