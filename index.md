@@ -127,6 +127,13 @@ layout: default
 
 <ul class="news-list">
 
+   <li class="news-item">
+    <time class="news-date">Nov 28, 2025</time>
+    <div class="news-text">
+      I am an <a href="https://awardfellowships.org/data_fellows/?targetCountry=C%C3%B4te%20d%27Ivoire">AWARD Data Science Fellow</a>
+    </div>
+  </li>
+  
   <li class="news-item">
     <time class="news-date">Oct 7, 2025</time>
     <div class="news-text">
