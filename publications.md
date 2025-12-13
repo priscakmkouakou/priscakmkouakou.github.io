@@ -109,6 +109,16 @@ permalink: /publications/
 
   <article class="pub-card">
     <h3 class="pub-title">
+      <i class="fa-regular fa-newspaper"></i> Advancing Women’s Leadership in Data-driven Agricultural Innovation to Improve Agrifood Systems and Climate Resilience
+    </h3>
+    <div class="pub-meta">2025 · AWARD</div>
+    <div class="pub-actions">
+      <a class="primary" href="https://awardfellowships.org/news/advancing-womens-leadership-in-data-driven-agricultural-innovation-to-improve-agrifood-systems-and-climate-resilience/" target="_blank" rel="noopener">Read</a>
+    </div>
+  </article>
+  
+  <article class="pub-card">
+    <h3 class="pub-title">
       <i class="fa-regular fa-newspaper"></i> Young African professionals share how they have been empowered to tackle environmental challenges
     </h3>
     <div class="pub-meta">2024 · UNEP-WCMC</div>
