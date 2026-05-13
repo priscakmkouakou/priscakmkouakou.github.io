@@ -34,11 +34,7 @@ layout: default
   
   <h1 class="hero-name">Prisca Kouakou</h1>
   <p class="lead">
-  I am an interdisciplinary researcher with backgrounds in ecology, environmental science, and social science.
-  Currently, I am a PhD Candidate in the <a href="https://www.geog.cam.ac.uk/people/kouakou/">Department of Geography at the University of Cambridge</a>,   supported by the Cambridge Trust Scholarship. My research examines the conditions under which supply chain sustainability initiatives 
-  can lead to the adoption of agroforestry and how these initiatives shape social and ecological outcomes in the cocoa 
-  sectors of Côte d’Ivoire and Ghana. I use a mixed-methods approach that combines policy analysis with biophysical 
-  and household surveys. My work is supervised by <a href="https://www.geog.cam.ac.uk/people/garrett/">Professor Rachael Garrett</a>. 
+I am an interdisciplinary researcher with backgrounds in ecology, environmental science, and social science. Currently, I am a Research Assistant at the <a href="https://www.geog.cam.ac.uk/people/kouakou/">Department of Geography at the University of Cambridge</a>. My research examines the conditions under which supply chain sustainability initiatives can lead to the adoption of agroforestry and how these initiatives shape social and ecological outcomes in the cocoa sectors of Côte d’Ivoire and Ghana. I use a mixed-methods approach that combines policy analysis with biophysical and household surveys. My work is supervised by <a href="https://www.geog.cam.ac.uk/people/garrett/">Professor Rachael Garrett</a>. 
 </p>
 </div>
 
