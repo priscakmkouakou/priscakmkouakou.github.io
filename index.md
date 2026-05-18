@@ -238,7 +238,7 @@ I am an interdisciplinary researcher with backgrounds in ecology, environmental 
   <h3><a href="https://onlinelibrary.wiley.com/doi/10.1002/sd.70266">
     Existing sustainability interventions are insufficient to scale up cocoa agroforestry in West Africa
   </a></h3>
-  <div class="journal">2025 · <em>Sustainable Development</em></div>
+  <div class="journal">2026 · <em>Sustainable Development</em></div>
   <div class="authors">
     <strong>K. M.-P. Kouakou</strong>, J. Lyons-White, W. Thompson, T. Addoah, F. Cammelli,  W. J. Blaser-Hart, V. Maguire-Rajpaul, E. Dawoe, R.D. Garrett
   </div>
