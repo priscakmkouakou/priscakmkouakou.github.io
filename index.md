@@ -124,6 +124,14 @@ I am an interdisciplinary researcher with backgrounds in ecology, environmental 
 <ul class="news-list">
  
   <li class="news-item">
+    <time class="news-date">Oct 26, 2026</time>
+    <div class="news-text">
+      My thesis, 
+      <a href="https://doi.org/10.17863/CAM.136250">“Cocoa in the shade: Examining the socio-economic and ecological impacts of supply chain agroforestry interventions in West Africa" is online</em>!
+    </div>
+  </li>
+  
+  <li class="news-item">
     <time class="news-date">Sep 23, 2026</time>
     <div class="news-text">
       I was invited as a guest speaker at the 
