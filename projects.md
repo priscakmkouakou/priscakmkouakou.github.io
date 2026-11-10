@@ -35,7 +35,7 @@ permalink: /projects/
           <a class="primary" href="https://priscakmkouakou.github.io/publications/" target="_blank" rel="noopener">
             <i class="fa-solid fa-book-open"></i> Papers
           </a>
-          <a href="https://www.globalfood.cam.ac.uk/events/lunchtime-conversation-socio-economic-levers-scale-more-sustainable-farming" target="_blank" rel="noopener">
+          <a href="https://www.youtube.com/watch?v=6lUiAvWypmE" target="_blank" rel="noopener">
             <i class="fa-solid fa-chalkboard-user"></i> Talk
           </a>
           <a href="https://github.com/priscakmkouakou" target="_blank" rel="noopener">
