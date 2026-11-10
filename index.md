@@ -124,6 +124,14 @@ I am an interdisciplinary researcher with backgrounds in ecology, environmental 
 <ul class="news-list">
  
   <li class="news-item">
+    <time class="news-date">Sep 23, 2026</time>
+    <div class="news-text">
+      I was invited as a guest speaker at the 
+      <a href="https://www.youtube.com/watch?v=6lUiAvWypmE">Webinar: "Agroforestry for Resilient Cocoa: Research Results & Practical Lessons from South America and Côte d’Ivoire"</a> organised by the German Initiative on Sustainable Cocoa (GISCO).
+    </div>
+  </li>
+  
+  <li class="news-item">
     <time class="news-date">May 1, 2026</time>
     <div class="news-text">
       I am a <a href="https://www.geog.cam.ac.uk/people/kouakou/"> Research Assistant at the Conservation and Development Lab, University of Cambridge</a>
